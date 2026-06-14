@@ -132,7 +132,7 @@ function renderHome(container) {
                 <!-- Book Card 1: Maminčina -->
                 <div class="book-card" onclick="navigateTo('#book/mamincina')">
                     <div class="book-card-cover-wrapper">
-                        <img src="images/mamincina/1.png" class="book-card-cover-img" alt="Maminčina kuchařka">
+                        <img src="images/mamincina/mamincinaprofil.png" class="book-card-cover-img" alt="Maminčina kuchařka">
                     </div>
                     <div class="book-card-body">
                         <h2 class="book-card-title">Maminčina kuchařka</h2>
@@ -146,7 +146,7 @@ function renderHome(container) {
                 <!-- Book Card 2: Sladké -->
                 <div class="book-card" onclick="navigateTo('#book/sladke')">
                     <div class="book-card-cover-wrapper">
-                        <img src="images/sladke/1.png" class="book-card-cover-img" alt="Kousek sladkého štěstí">
+                        <img src="images/sladke/sladkeprofil.png" class="book-card-cover-img" alt="Kousek sladkého štěstí">
                     </div>
                     <div class="book-card-body">
                         <h2 class="book-card-title">Kousek sladkého štěstí</h2>
