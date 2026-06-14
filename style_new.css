@@ -895,10 +895,30 @@ button {
     
     .navbar {
         padding: 1rem;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+    
+    .navbar > div:last-child {
+        display: none;
     }
     
     .navbar-brand {
         font-size: 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        line-height: 1.3;
+    }
+    
+    .recipe-meta-top {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    
+    .cooking-controls {
+        justify-content: flex-start;
     }
     
     .hero {
