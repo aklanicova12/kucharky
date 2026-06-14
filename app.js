@@ -244,7 +244,7 @@ function renderBook(container, bookKey) {
                         const iconPath = catIcons[cat] ? `icons/${catIcons[cat]}` : null;
                         return `
                         <button class="category-tab ${idx === 0 ? 'active' : ''}" onclick="filterCategory('${cat}', this)">
-                            ${iconPath ? `<img src="${iconPath}" class="category-tab-icon" alt="${cat}" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">` : ''}
+                            ${iconPath ? `<img src="${iconPath}" class="category-tab-icon" alt="${cat}" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;" onerror="this.style.display='none'">` : ''}
                             ${cat}
                         </button>
                     `}).join('')}
@@ -355,7 +355,7 @@ function renderRecipe(container, recipeId) {
                     ${recipe.icons && recipe.icons.length > 1 ? `
                         <div class="recipe-floating-decorations">
                             ${recipe.icons.slice(1).map((iconPath, idx) => `
-                                <img src="${iconPath}" class="recipe-floating-icon decoration-${idx + 1}" alt="Dekorace receptu">
+                                <img src="${iconPath}" class="recipe-floating-icon decoration-${idx + 1}" alt="Dekorace receptu" onerror="this.style.display='none'">
                             `).join('')}
                         </div>
                     ` : ''}
@@ -378,7 +378,7 @@ function renderRecipe(container, recipeId) {
                         <h1 class="recipe-title-detail">${recipe.title}</h1>
                         ${recipe.icons && recipe.icons.length > 0 ? `
                             <div class="recipe-detail-badge-icons">
-                                <img src="${recipe.icons[0]}" class="recipe-detail-badge-icon" alt="Ikona receptu">
+                                <img src="${recipe.icons[0]}" class="recipe-detail-badge-icon" alt="Ikona receptu" onerror="this.parentElement.style.display='none'">
                             </div>
                         ` : ''}
                     </div>
