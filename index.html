@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodinné Kuchařky – Interaktivní Digitální Vydání</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Kompletní interaktivní webová stránka transformující rodinné kuchařky (Maminčina kuchařka, Kousek sladkého štěstí a Tajemství vánočního stolu) do digitální podoby s vyhledáváním a interaktivními funkcemi.">
+    <meta name="keywords" content="kuchařka, recepty, bábovky, cukroví, vánočka, polévky, pečení, vaření, rodinná kuchařka">
+    <meta name="author" content="Anička & Maminka">
+    
+    <!-- Favicon and Theme Color -->
+    <meta name="theme-color" content="#FAF6F0">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style_new.css">
+</head>
+<body>
+
+    <!-- Main Dynamic Application Container -->
+    <div id="app-container">
+        
+        <!-- Dynamic Page Content (Loaded by app.js router) -->
+        <div id="page-content">
+            <!-- Content will be injected here by app.js -->
+            <div style="display: flex; justify-content: center; align-items: center; min-height: 80vh;">
+                <div style="font-family: 'EB Garamond', serif; font-size: 2rem; color: #7A6F68; text-align: center;">
+                    <p>Načítám rodinné kuchařky...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scrapbook Cozy Footer -->
+        <footer class="footer">
+            <p>Vytvořeno s <span>♥</span> pro moji milovanou maminku.</p>
+            <p>&copy; 2026 Rodinné Kuchařky. Všechna práva vyhrazena. Akvarelové ilustrace &copy; Canva autorské motivy.</p>
+        </footer>
+        
+    </div>
+
+    <!-- Application Scripts -->
+    <!-- recipes-data.js loads the global RECIPES array -->
+    <script src="recipes-data.js?v=8"></script>
+    <!-- app.js handles all client router and rendering logic -->
+    <script src="app.js?v=8"></script>
+
+</body>
+</html>

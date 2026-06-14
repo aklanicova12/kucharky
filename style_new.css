@@ -1,0 +1,1029 @@
+/* Cozy Watercolor/Scrapbook Design System */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --bg-cream: #FAF6F0;
+    --card-white: #FFFFFF;
+    --text-charcoal: #3D332D;
+    --text-muted: #7A6F68;
+    --accent-sage: #8C9B85;
+    --accent-sage-dark: #6C7A65;
+    --accent-sage-light: #E9EDE7;
+    --accent-terracotta: #C67D64;
+    --accent-gold: #DCA873;
+    --accent-gold-light: #F7EFE5;
+    --border-soft: #EDE8E0;
+    --shadow-soft: 0 8px 24px rgba(61, 51, 45, 0.06);
+    --shadow-hover: 0 16px 32px rgba(61, 51, 45, 0.12);
+    
+    --font-heading: 'EB Garamond', serif;
+    --font-serif-body: 'Lora', serif;
+    --font-sans: 'Nunito', sans-serif;
+    
+    --transition-cozy: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Base resets & styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-cream);
+    color: var(--text-charcoal);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    font-family: var(--font-sans);
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+/* Page transitions container */
+#app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page {
+    opacity: 1;
+    transition: var(--transition-cozy);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.page.fade-out {
+    opacity: 0;
+    transform: translateY(15px);
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: rgba(250, 246, 240, 0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-soft);
+    padding: 1.25rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-charcoal);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbar-brand span {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: var(--accent-sage-light);
+    color: var(--accent-sage-dark);
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+}
+
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    padding: 0.6rem 1.2rem;
+    border-radius: 30px;
+    border: 1px solid var(--border-soft);
+    background-color: var(--card-white);
+    transition: var(--transition-cozy);
+}
+
+.back-btn:hover {
+    color: var(--text-charcoal);
+    border-color: var(--accent-gold);
+    background-color: var(--accent-gold-light);
+    transform: translateX(-3px);
+}
+
+/* DOMOVSKÁ STRÁNKA (HOMEPAGE) */
+.hero {
+    padding: 5rem 1rem 3rem 1rem;
+    text-align: center;
+    background-image: radial-gradient(var(--accent-sage-light) 1px, transparent 1px);
+    background-size: 20px 20px;
+    border-bottom: 1px dashed var(--border-soft);
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    color: var(--text-charcoal);
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto 2.5rem auto;
+}
+
+/* Vyhledávací panel */
+.search-container {
+    max-width: 650px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: var(--shadow-soft);
+    border-radius: 50px;
+    background-color: var(--card-white);
+    padding: 0.35rem;
+    border: 1px solid var(--border-soft);
+    transition: var(--transition-cozy);
+}
+
+.search-container:focus-within {
+    box-shadow: var(--shadow-hover);
+    border-color: var(--accent-sage);
+}
+
+.search-input {
+    width: 100%;
+    padding: 1rem 1.5rem 1rem 3.5rem;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: var(--font-sans);
+    color: var(--text-charcoal);
+}
+
+.search-icon {
+    position: absolute;
+    left: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--accent-sage-dark);
+    font-size: 1.3rem;
+    pointer-events: none;
+}
+
+/* Vyhledávací tagy / našeptávač */
+.quick-tags {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.tag-btn {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid var(--border-soft);
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    transition: var(--transition-cozy);
+}
+
+.tag-btn:hover {
+    background-color: var(--accent-sage-light);
+    color: var(--accent-sage-dark);
+    border-color: var(--accent-sage);
+    transform: translateY(-2px);
+}
+
+/* Rozcestník knih */
+.books-showcase {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.5rem;
+}
+
+.book-card {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: visible;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+    transition: var(--transition-cozy);
+}
+
+.book-card::before {
+    display: none; /* remove tape/ribbon effect */
+}
+
+.book-card-cover-wrapper {
+    width: 100%;
+    margin-bottom: 20px; /* Jasná mezera pod obrázkem, bez překryvu */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.book-card-cover-img {
+    max-width: 85%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px 12px 12px 4px;
+    box-shadow: 0 20px 45px rgba(61, 51, 45, 0.18), 0 8px 20px rgba(61, 51, 45, 0.1); /* Měkký stín pro 3D hloubku přímo pod knihou */
+    border-left: 2px solid rgba(61, 51, 45, 0.05);
+    transition: var(--transition-cozy);
+    background-color: transparent;
+}
+
+.book-card:hover .book-card-cover-img {
+    transform: translateY(-12px) scale(1.03);
+    box-shadow: 0 30px 60px rgba(61, 51, 45, 0.22), 0 12px 28px rgba(61, 51, 45, 0.12);
+}
+
+.book-card-body {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 2rem 1.5rem 2rem 1.5rem; /* Menší padding pro subtilnější vzhled */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 4px 15px rgba(61, 51, 45, 0.03); /* Velmi jemný, sotva znatelný stín */
+    transition: var(--transition-cozy);
+    border: 1px solid rgba(61, 51, 45, 0.04);
+    flex-grow: 1;
+}
+
+.book-card:hover .book-card-body {
+    box-shadow: 0 8px 25px rgba(61, 51, 45, 0.06);
+}
+
+.book-card-title {
+    font-family: var(--font-heading);
+    font-size: 1.8rem; /* Návrat k jemnější velikosti */
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-charcoal);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.book-card-desc {
+    font-family: var(--font-serif-body);
+    font-size: 1rem;
+    color: var(--text-muted); /* Zpět k jemnější barvě pro menší odvedení pozornosti */
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    max-width: 300px;
+    text-align: center;
+}
+
+.book-card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+.book-recipe-count {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-charcoal); /* Tmavý text */
+    background-color: var(--bg-cream); /* Extrémně nenápadné pozadí (splývá se stránkou) */
+    border: 1px solid rgba(61, 51, 45, 0.08); /* Tenká elegantní obrysová linka */
+    padding: 0.6rem 1.8rem;
+    border-radius: 20px; /* Elegantní zakulacení */
+    transition: var(--transition-cozy);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    box-shadow: none; /* Odstraněn těžký stín */
+}
+
+.book-card:hover .book-recipe-count {
+    background-color: var(--accent-gold-light); /* Jemná změna při najetí */
+    color: var(--text-charcoal);
+    border-color: var(--accent-gold);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(61, 51, 45, 0.05);
+}
+
+/* PŘEHLED RECEPTŮ KUCHAŘKY (CATEGORY VIEW) */
+.book-header {
+    background-color: var(--card-white);
+    border-bottom: 1px solid var(--border-soft);
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.book-title-main {
+    font-size: 3rem;
+    color: var(--text-charcoal);
+    margin-bottom: 0.5rem;
+}
+
+.book-subtitle-main {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+}
+
+/* Filtry kategorií */
+.categories-filter-bar {
+    max-width: 1000px;
+    margin: 2rem auto 0 auto;
+    display: flex;
+    gap: 0.6rem;
+    overflow-x: auto;
+    padding: 0.5rem 1rem 1rem 1rem;
+    scrollbar-width: none; /* Firefox */
+}
+
+.categories-filter-bar::-webkit-scrollbar {
+    display: none; /* Safari & Chrome */
+}
+
+.category-tab {
+    background-color: var(--card-white);
+    border: 1px solid var(--border-soft);
+    padding: 0.5rem 1.25rem;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    white-space: nowrap;
+    transition: var(--transition-cozy);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+}
+
+.category-tab:hover {
+    border-color: var(--accent-gold);
+    color: var(--text-charcoal);
+    transform: translateY(-2px);
+}
+
+.category-tab.active {
+    background-color: var(--accent-sage);
+    color: var(--card-white);
+    border-color: var(--accent-sage);
+    box-shadow: 0 4px 10px rgba(140, 155, 133, 0.3);
+}
+
+/* Mřížka s recepty */
+.recipes-grid-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem 5rem 2rem;
+    width: 100%;
+}
+
+.recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.recipe-card {
+    background-color: #FFFFFF; /* Zářivě bílá karta, stejně jako pod knihami */
+    background-image: none; /* Úplné odstranění barev a textury */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: none; /* Zcela bez stínu v základním stavu */
+    transition: var(--transition-cozy);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 220px;
+    border: 1px solid rgba(61, 51, 45, 0.04); /* Velmi jemná linka, jako u štítku */
+    cursor: pointer;
+    position: relative;
+}
+
+.recipe-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(61, 51, 45, 0.06); /* Velmi decentní stín při najetí, shodný se štítkem */
+    border-color: rgba(61, 51, 45, 0.1);
+}
+
+.recipe-card-body {
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.recipe-card-title {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--text-charcoal);
+    line-height: 1.3;
+    margin-bottom: 1.2rem;
+}
+
+.recipe-card-divider {
+    width: 60%;
+    border: none;
+    border-top: 1px solid var(--border-soft);
+    margin: 0 auto 1.2rem auto;
+}
+
+.recipe-card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    flex-wrap: wrap;
+    font-family: var(--font-sans);
+}
+
+.recipe-card-footer span {
+    white-space: nowrap;
+}
+
+.dot-separator {
+    color: var(--accent-gold);
+    font-weight: bold;
+}
+
+/* DETAIL RECEPTU (SIDE-BY-SIDE) */
+.recipe-detail-container {
+    max-width: 1350px;
+    margin: 2rem auto 5rem auto;
+    padding: 0 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 3rem;
+}
+
+/* Levý sloupec: Obrázek knihy */
+.recipe-image-side {
+    position: sticky;
+    top: 5.5rem;
+    height: calc(100vh - 8rem);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-white);
+    border-radius: 20px;
+    box-shadow: var(--shadow-soft);
+    border: 1px solid var(--border-soft);
+    overflow: hidden;
+}
+
+.recipe-canvas-viewer {
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-cream);
+    overflow: hidden;
+    padding: 1.5rem;
+}
+
+.recipe-canvas-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: var(--transition-cozy);
+}
+
+/* Navigační prvky obrázku */
+.viewer-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-top: 1px solid var(--border-soft);
+    background-color: var(--card-white);
+    z-index: 10;
+}
+
+.viewer-page-btn {
+    background-color: var(--accent-sage-light);
+    color: var(--accent-sage-dark);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    transition: var(--transition-cozy);
+}
+
+.viewer-page-btn:hover:not(:disabled) {
+    background-color: var(--accent-sage);
+    color: var(--card-white);
+}
+
+.viewer-page-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.viewer-page-indicator {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+/* Pravý sloupec: Obsah z PDF */
+.recipe-content-side {
+    position: relative;
+    background-color: var(--card-white);
+    border-radius: 20px;
+    box-shadow: var(--shadow-soft);
+    border: 1px solid var(--border-soft);
+    padding: 3rem 2.5rem;
+    overflow-y: auto;
+    height: max-content;
+}
+
+.recipe-meta-top {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--accent-terracotta);
+}
+
+.recipe-book-tag {
+    background-color: var(--accent-gold-light);
+    color: var(--accent-gold);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+}
+
+.recipe-title-detail {
+    font-size: 2.8rem;
+    color: var(--text-charcoal);
+    line-height: 1.15;
+    margin-bottom: 2rem;
+    border-bottom: 2px dashed var(--border-soft);
+    padding-bottom: 1.5rem;
+}
+
+.recipe-section-title {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    color: var(--accent-sage-dark);
+    margin-bottom: 1.25rem;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.recipe-section-title::after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-image: linear-gradient(to right, var(--accent-sage), transparent);
+    margin-left: 0.5rem;
+}
+
+/* Seznam ingrediencí */
+.ingredients-list {
+    margin-bottom: 2.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+/* Subhlavičky v ingrediencích (např. Těsto, Krém) */
+.ingredients-subheading {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text-charcoal);
+    margin-top: 1.2rem;
+    margin-bottom: 0.4rem;
+    border-left: 3px solid var(--accent-gold);
+    padding-left: 0.6rem;
+}
+
+/* Checkboxy */
+.ingredient-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    cursor: pointer;
+    font-size: 1.05rem;
+    transition: var(--transition-cozy);
+    padding: 0.2rem 0.5rem;
+    border-radius: 8px;
+}
+
+.ingredient-item:hover {
+    background-color: var(--accent-gold-light);
+}
+
+.ingredient-item input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox-custom {
+    min-width: 20px;
+    height: 20px;
+    border: 2px solid var(--accent-sage);
+    border-radius: 6px;
+    margin-top: 0.2rem;
+    position: relative;
+    transition: var(--transition-cozy);
+    background-color: var(--card-white);
+}
+
+.ingredient-item input[type="checkbox"]:checked + .checkbox-custom {
+    background-color: var(--accent-sage);
+    border-color: var(--accent-sage);
+}
+
+.ingredient-item input[type="checkbox"]:checked + .checkbox-custom::after {
+    content: '✓';
+    position: absolute;
+    color: var(--card-white);
+    font-size: 0.85rem;
+    font-weight: 900;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -55%);
+}
+
+.ingredient-text {
+    transition: var(--transition-cozy);
+}
+
+.ingredient-item input[type="checkbox"]:checked ~ .ingredient-text {
+    text-decoration: line-through;
+    color: var(--text-muted);
+}
+
+/* Postup text */
+.recipe-instructions {
+    font-family: var(--font-serif-body);
+    font-size: 1.15rem;
+    color: var(--text-charcoal);
+    line-height: 1.8;
+}
+
+.recipe-instructions p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.recipe-instructions p.recipe-tip {
+    font-style: italic;
+    background-color: var(--accent-gold-light);
+    border-left: 4px solid var(--accent-gold);
+    padding: 1rem 1.25rem;
+    border-radius: 0 12px 12px 0;
+    color: var(--text-charcoal);
+    margin-top: 1.5rem;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+}
+
+/* Kuchařský mód / Cooking Mode */
+.cooking-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1.5rem;
+    gap: 0.5rem;
+}
+
+.btn-cooking-mode {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--accent-sage-dark);
+    background-color: var(--accent-sage-light);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: var(--transition-cozy);
+}
+
+.btn-cooking-mode:hover {
+    background-color: var(--accent-sage);
+    color: var(--card-white);
+}
+
+/* Aktivní kuchařský mód */
+.cooking-mode-active .recipe-detail-container {
+    grid-template-columns: 1fr;
+    max-width: 850px;
+}
+
+.cooking-mode-active .recipe-image-side {
+    display: none !important;
+}
+
+.cooking-mode-active .recipe-content-side {
+    padding: 4rem 3.5rem;
+}
+
+.cooking-mode-active .recipe-instructions {
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+.cooking-mode-active .ingredient-item {
+    font-size: 1.3rem;
+    padding: 0.4rem 0.8rem;
+}
+
+.cooking-mode-active .checkbox-custom {
+    min-width: 24px;
+    height: 24px;
+    margin-top: 0.35rem;
+}
+
+/* VYHLEDÁVACÍ STRÁNKA (SEARCH RESULTS) */
+.search-results-header {
+    background-color: var(--card-white);
+    border-bottom: 1px solid var(--border-soft);
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.search-results-title {
+    font-size: 2.2rem;
+    color: var(--text-charcoal);
+    margin-bottom: 0.5rem;
+}
+
+.search-results-query {
+    font-style: italic;
+    color: var(--accent-terracotta);
+}
+
+.no-results {
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.no-results-icon {
+    font-size: 3.5rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.no-results-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.no-results-desc {
+    color: var(--text-muted);
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+/* Zápatí webu (Footer) */
+.footer {
+    background-color: var(--card-white);
+    border-top: 1px solid var(--border-soft);
+    padding: 2.5rem 2rem;
+    text-align: center;
+    margin-top: auto;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.footer p {
+    margin-bottom: 0.4rem;
+}
+
+.footer span {
+    color: var(--accent-terracotta);
+    font-weight: bold;
+}
+
+/* RESPONZIVITA (RESPONSIVENESS) */
+@media (max-width: 1024px) {
+    .books-showcase {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        padding: 3rem 1.5rem;
+    }
+    
+    .recipe-detail-container {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        padding: 0 1.5rem;
+    }
+    
+    .recipe-image-side {
+        position: relative;
+        top: 0;
+        height: 500px;
+    }
+    
+    .book-title-main {
+        font-size: 2.5rem;
+    }
+    
+    .hero-title {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .books-showcase {
+        grid-template-columns: 1fr;
+        max-width: 450px;
+    }
+    
+    .navbar {
+        padding: 1rem;
+    }
+    
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    
+    .hero {
+        padding: 3rem 1rem 2rem 1rem;
+    }
+    
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 1.8rem;
+    }
+    
+    .search-input {
+        padding: 0.8rem 1rem 0.8rem 3rem;
+        font-size: 1rem;
+    }
+    
+    .recipes-grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .recipes-grid-container {
+        padding: 2rem 1rem;
+    }
+    
+    .recipe-image-side {
+        height: 380px;
+    }
+    
+    .recipe-content-side {
+        padding: 2rem 1.5rem;
+    }
+    
+    .recipe-title-detail {
+        font-size: 2.2rem;
+    }
+}
+
+/* --- Matched Recipe Icons & Scrapbook Floating Decorations --- */
+.recipe-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.recipe-title-detail {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.recipe-detail-badge-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px dashed var(--border-medium);
+    border-radius: 12px;
+    padding: 6px;
+    box-shadow: var(--shadow-soft);
+}
+
+.recipe-detail-badge-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.08));
+}
+
+.recipe-floating-decorations {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    pointer-events: none;
+    display: flex;
+    gap: 15px;
+    opacity: 0.9;
+    z-index: 5;
+}
+
+.recipe-floating-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.08));
+    animation: floating-scr-decor 4s ease-in-out infinite alternate;
+}
+
+.recipe-floating-icon.decoration-1 {
+    transform: rotate(6deg);
+    animation-delay: 0s;
+}
+
+.recipe-floating-icon.decoration-2 {
+    transform: rotate(-8deg);
+    animation-delay: 1.5s;
+}
+
+@keyframes floating-scr-decor {
+    0% {
+        transform: translateY(0) rotate(5deg);
+    }
+    100% {
+        transform: translateY(-5px) rotate(8deg);
+    }
+}
+
+/* Adjust layout on mobile devices */
+@media (max-width: 768px) {
+    .recipe-title-container {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .recipe-floating-decorations {
+        bottom: 10px;
+        right: 10px;
+        opacity: 0.7;
+    }
+    
+    .recipe-floating-icon {
+        width: 60px;
+        height: 60px;
+    }
+}

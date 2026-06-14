@@ -1,0 +1,5 @@
+node_modules/
+*.pdf
+collage.png
+icon-matches.json
+recipes.json
