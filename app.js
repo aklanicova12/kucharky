@@ -160,7 +160,7 @@ function renderHome(container) {
                 <!-- Book Card 3: Vánoční -->
                 <div class="book-card" onclick="navigateTo('#book/vanocni')">
                     <div class="book-card-cover-wrapper">
-                        <img src="images/vanocni/1.png" class="book-card-cover-img" alt="Tajemství vánočního stolu">
+                        <img src="images/vanocni/vanocniprofil.png" class="book-card-cover-img" alt="Tajemství vánočního stolu">
                     </div>
                     <div class="book-card-body">
                         <h2 class="book-card-title">Tajemství vánočního stolu</h2>
