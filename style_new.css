@@ -409,6 +409,10 @@ button {
     box-shadow: 0 4px 10px rgba(140, 155, 133, 0.3);
 }
 
+.category-tab-icon {
+    mix-blend-mode: multiply;
+}
+
 /* Mřížka s recepty */
 .recipes-grid-container {
     max-width: 1200px;

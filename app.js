@@ -238,7 +238,8 @@ function renderBook(container, bookKey) {
                             'Dorty': 'dorty.png',
                             'Cukroví': 'cukroví.png',
                             'Vánočka': 'vanocka.png',
-                            'Tradiční jídla': 'tradicnijidla.png'
+                            'Tradiční jídla': 'tradicnijidla.png',
+                            'Luštěniny': 'lusteniny.png'
                         };
                         const iconPath = catIcons[cat] ? `icons/${catIcons[cat]}` : null;
                         return `
@@ -257,6 +258,12 @@ function renderBook(container, bookKey) {
             </main>
         </div>
     `;
+    
+    // Enable drag and wheel scroll for category filters
+    const categoryTabsContainer = document.getElementById('category-tabs-container');
+    if (categoryTabsContainer) {
+        enableDragToScroll(categoryTabsContainer);
+    }
 }
 
 function renderRecipeCards(recipesList) {
@@ -592,3 +599,60 @@ window.addEventListener('DOMContentLoaded', () => {
     // Run router initial check
     handleRoute();
 });
+
+// Utility: Enable drag and wheel to scroll for horizontal containers
+function enableDragToScroll(slider) {
+    if (!slider) return;
+    
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+    let isDragging = false;
+
+    slider.addEventListener('mousedown', (e) => {
+        isDown = true;
+        isDragging = false;
+        slider.style.cursor = 'grabbing';
+        startX = e.pageX - slider.offsetLeft;
+        scrollLeft = slider.scrollLeft;
+    });
+    
+    slider.addEventListener('mouseleave', () => {
+        isDown = false;
+        slider.style.cursor = 'grab';
+    });
+    
+    slider.addEventListener('mouseup', () => {
+        isDown = false;
+        slider.style.cursor = 'grab';
+    });
+    
+    slider.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - slider.offsetLeft;
+        const walk = (x - startX) * 2; // scroll speed multiplier
+        if (Math.abs(walk) > 5) {
+            isDragging = true;
+        }
+        slider.scrollLeft = scrollLeft - walk;
+    });
+    
+    // Prevent click events if dragging occurred
+    slider.addEventListener('click', (e) => {
+        if (isDragging) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+    }, true);
+    
+    // Scroll horizontally with vertical mouse wheel
+    slider.addEventListener('wheel', (e) => {
+        if (e.deltaY !== 0) {
+            e.preventDefault();
+            slider.scrollLeft += e.deltaY;
+        }
+    }, { passive: false });
+    
+    slider.style.cursor = 'grab';
+}
