@@ -1,94 +1,94 @@
 const RECIPES = [
   {
-    "id": "mamincina_9",
+    "id": "mamincina_8",
     "title": "Čočková polévka",
     "category": "Polévky",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 9,
+    "startPage": 8,
     "pages": [
-      9,
-      10
+      8,
+      9
     ],
     "ingredients": [
-      "500 g čočky",
-      "Trochu majoránky",
-      "2 masoxy",
-      "Trochu podravky",
-      "Máslová jíška",
-      "[SUB] Nočky",
-      "Polohrubá mouka",
-      "(4 lžíce)",
-      "1 vejce",
-      "Sůl"
+      "500 G ČOČKY",
+      "TROCHU MAJORÁNKY",
+      "2 MASOXY",
+      "TROCHU PODRAVKY",
+      "MÁSLOVÁ JÍŠKA",
+      "NOČKY",
+      "POLOHRUBÁ MOUKA",
+      "(4 LŽÍCE)",
+      "1 VEJCE",
+      "SŮL"
     ],
     "instructions": "Čočku přes noc naložíme do vody. Připravíme si jíšku a zalijeme masoxy. Přidáme ostatní koření a přisypeme odstátou čočku. Vaříme do změknutí. Mezitím vytvoříme těstíčko na nočky a přes připravené dírky či vytvarované ve žličce je povaříme v polévce.",
     "imagePath": "icons/polevky.png",
     "icons": []
   },
   {
-    "id": "mamincina_11",
+    "id": "mamincina_10",
     "title": "Dýňová polévka",
     "category": "Polévky",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 11,
+    "startPage": 10,
     "pages": [
-      11,
-      12
+      10,
+      11
     ],
     "ingredients": [
-      "Dýně hokkaidó 1 kg",
-      "Olivový olej 4 lžíce",
-      "Smetana ke šlehání",
-      "100 ml",
-      "2 cibule",
-      "Vývar 700 ml",
-      "Pepř, sůl"
+      "DÝNĚ HOKKAIDÓ 1 KG",
+      "OLIVOVÝ OLEJ 4 LŽÍCE",
+      "SMETANA  KE  ŠLEHÁNÍ",
+      "100 ML",
+      "2 CIBULE",
+      "VÝVAR 700 ML",
+      "PEPŘ, SŮL"
     ],
-    "instructions": "Dýni nakrájíme na kostky (loupat nemusíme).\n\nV hrnci rozpálíme olivový olej a pozvolna na něm opečeme cibuli. Až zesklovatí, tak přidáme pokrájenou dýni a opékáme dalších 10 minut.\n\nZalijeme vývarem a vaříme zhruba dalších 15 minut, dokud nebude dýně měkká. Rozmixujeme ručním mixérem, přilijeme smetanu, dochutíme solí a pepřem a ještě pár minut povaříme. Polévku podávejte posypanou opečenými dýňovými semínky, rozdrobeným feta sýrem, případně drceným chilli.",
+    "instructions": "Dýni nakrájíme na kostky (loupat nemusíme). V hrnci rozpálíme olivový olej a pozvolna na něm opečeme cibuli. Až zesklovatí, tak přidáme pokrájenou dýni a opékáme dalších 10 minut. Zalijeme vývarem a vaříme zhruba dalších 15 minut, dokud nebude dýně měkká. Rozmixujeme ručním mixérem, přilijeme smetanu, dochutíme solí a pepřem a ještě pár minut povaříme. Polévku podávejte posypanou opečenými dýňovými semínky, rozdrobeným feta sýrem, případně drceným chilli.",
     "imagePath": "icons/polevky.png",
     "icons": []
   },
   {
-    "id": "mamincina_13",
+    "id": "mamincina_12",
     "title": "Rajčatová polévka",
     "category": "Polévky",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 13,
+    "startPage": 12,
     "pages": [
-      13,
-      14
+      12,
+      13
     ],
     "ingredients": [
-      "1 cibule",
-      "2 stroužky česneku",
-      "Konzerva krájených rajčat",
-      "Bobkový list",
-      "Sůl, pepř",
-      "Hrst bazalky",
-      "[SUB] Podávání",
-      "Zakysaná smetana",
-      "Bagetky",
-      "Sýr"
+      "1 CIBULE",
+      "2 STROUŽKY ČESNEKU",
+      "KONZERVA KRÁJENÝCH RAJČAT",
+      "BOBKOVÝ LIST",
+      "SŮL, PEPŘ",
+      "HRST BAZALKY",
+      "P O D Á V Á N Í",
+      "ZAKYSANÁ SMETANA",
+      "BAGETKY",
+      "SÝR"
     ],
-    "instructions": "V hrnci na troše olivového oleje orestujeme cibuli, po chvíli přidáme nasekaný česnek.\n\nPřidáme rajčata a bobkový list, přilijeme vývar. Osolíme, opepříme a vaříme 15 minut. Vyjmeme bobkový list a polévku rozmixujeme. Vmícháme hrst nasekaných lístků bazalky. Polévku podáváme se lžící zakysané smetany, lístky bazalky a sýrovými tousty.",
+    "instructions": "V hrnci na troše olivového oleje orestujeme cibuli, po chvíli přidáme nasekaný česnek. Přidáme rajčata a bobkový list, přilijeme vývar. Osolíme, opepříme a vaříme 15 minut. Vyjmeme bobkový list a polévku rozmixujeme. Vmícháme hrst nasekaných lístků bazalky. Polévku podáváme se lžící zakysané smetany, lístky bazalky a sýrovými tousty.",
     "imagePath": "icons/rajcatovapolevka.png",
     "icons": [
       "icons/rajcatovapolevka.png"
     ]
   },
   {
-    "id": "mamincina_17",
+    "id": "mamincina_16",
     "title": "Kuře s kečupovou omáčkou",
     "category": "Kuře",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 17,
+    "startPage": 16,
     "pages": [
-      17,
-      18
+      16,
+      17
     ],
     "ingredients": [
       "[SUB] Omáčka",
@@ -102,36 +102,37 @@ const RECIPES = [
       "Lžíce octa",
       "Lžíce cukru"
     ],
-    "instructions": "Kuře připravíme klasicky na pečení. Vytvoříme si omáčku, kuře jí polijeme a vložíme do trouby. Při pečení dle potřeby podléváme, až je maso propečené.",
+    "instructions": "K u ře p řip ra v ím e k la sic k y n a p e če n í. V y tv o řím e si o m á čk u , k u ře jí p o lije m e a v lo žím e d o tro u b y . P ři p e če n í d le p o tře b y p o d lé v á m e , a ž je m a so p ro p e če n é .",
     "imagePath": "icons/kecup.png",
     "icons": [
       "icons/kecup.png"
     ]
   },
   {
-    "id": "mamincina_19",
+    "id": "mamincina_18",
     "title": "Ožralé kuře",
     "category": "Kuře",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 19,
+    "startPage": 18,
     "pages": [
-      19,
-      20
+      18,
+      19
     ],
     "ingredients": [
-      "1 celé kuře (cca 1,5 kg)",
-      "1 plechovka piva",
-      "[SUB] Nálev",
-      "2 lžíce medu",
-      "2 lžíce oleje",
-      "3 lžíce sojové omáčky",
-      "1 lžíce vinného octa",
-      "4 stroužky česneku",
-      "1 lžička chili v prášku",
-      "1 lžíce červené chilli omáčky"
+      "1 CELÉ KUŘE (CCA 1,5 KG)",
+      "1 PLECHOVKA PIVA",
+      "NÁLEV",
+      "2 LŽÍCE MEDU",
+      "2 LŽÍCE OLEJE",
+      "3 LŽÍCE SOJOVÉ OMÁČKY",
+      "1 LŽÍCE VINNÉHO OCTA",
+      "4 STROUŽKY ČESNEKU",
+      "1 LŽIČKA CHILI V PRÁŠKU",
+      "1 LŽÍCE ČERVENÉ CHILLI",
+      "OMÁČKY"
     ],
-    "instructions": "Postup - pivo Po hodině si připravíme plechovku s pivem. Pivo otevřeme a maličko usrkneme, do víčka uděláme další dvě díry a postavíme jej na plech, vyložené pečícím papírem. Kuře vezmeme a postavíme jej na plechovku s pivem. Pečeme na 180 stupňů asi hodinu. Po upečení stačí kuře nadzvednout a zaklepat do něj, aby plechovka vypadla.\n\nPostup - marináda Kuře připravte jako na běžné grilování. Omyjte, osolte a naložte do předem připravené marinády.\n\nNecháme minimálně hodinu nasáknout nálev pod kůži.\n\nKdo chce křupavou kůrčičku, vynechá v nálevu med.",
+    "instructions": "Kuře připravte jako na běžné grilování. Omyjte, osolte a naložte do předem připravené marinády. Necháme minimálně hodinu nasáknout nálev pod kůži. Kdo chce křupavou kůrčičku, vynechá v nálevu med. Postup - pivo Po hodině si připravíme plechovku s pivem. Pivo otevřeme a maličko usrkneme, do víčka uděláme další dvě díry a postavíme jej na plech, vyložené pečícím papírem. Kuře vezmeme a postavíme jej na plechovku s pivem. Pečeme na 180 stupňů asi hodinu. Po upečení stačí kuře nadzvednout a zaklepat do něj, aby plechovka vypadla.",
     "imagePath": "icons/ozralekure (2).png",
     "icons": [
       "icons/ozralekure (2).png",
@@ -139,54 +140,54 @@ const RECIPES = [
     ]
   },
   {
-    "id": "mamincina_21",
+    "id": "mamincina_20",
     "title": "Kuřecí bábovka",
     "category": "Kuře",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 21,
+    "startPage": 20,
     "pages": [
-      21,
-      22
+      20,
+      21
     ],
     "ingredients": [
-      "1 kg kuřecích prs",
-      "(cca 6 plátků)",
-      "4-5 vajec",
-      "Kousek uzeniny",
-      "Sýr",
-      "Pažitka",
-      "Sůl",
-      "Pepř",
-      "Koření dle chuti"
+      "1 KG KUŘECÍCH PRS",
+      "(CCA 6 PLÁTKŮ)",
+      "4-5 VAJEC",
+      "KOUSEK UZENINY",
+      "SÝR",
+      "KOŘENÍ DLE CHUTI",
+      "PAŽITKA",
+      "SŮL",
+      "PEPŘ"
     ],
-    "instructions": "Maso nakrájíme na plátky, osolíme, okořeníme.\n\nFormu na bábovku vyložíme pečícím papírem a vrstvíme postupně. Začneme masem, přidáme sýr nejlépe strouhaný, pak i salám nebo jiné uzeniny, zalijeme polovinou rozkvedlaných vajec.\n\nVrstvení opakujeme, končíme masem a nalijeme zbytek vajec. Dáme péct do trouby na 200 stupňů na 90 minut. Podáváme s bramborem či jinou variantou přílohy.",
+    "instructions": "Maso nakrájíme na plátky, osolíme, okořeníme. Formu na bábovku vyložíme pečícím papírem a vrstvíme postupně. Začneme masem, přidáme sýr nejlépe strouhaný, pak i salám nebo jiné uzeniny, zalijeme polovinou rozkvedlaných vajec. Vrstvení opakujeme, končíme masem a nalijeme zbytek vajec. Dáme péct do trouby na 200 stupňů na 90 minut. Podáváme s bramborem či jinou variantou přílohy.",
     "imagePath": "icons/kure.png",
     "icons": [
       "icons/kure.png"
     ]
   },
   {
-    "id": "mamincina_23",
+    "id": "mamincina_22",
     "title": "Špízy",
     "category": "Kuře",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 23,
+    "startPage": 22,
     "pages": [
-      23,
-      24
+      22,
+      23
     ],
     "ingredients": [
-      "Vepřové maso z kýty",
-      "Kuřecí řízky",
-      "Anglická slanina",
-      "Kuřecí játra",
-      "Klobása",
-      "Žampiony",
-      "Cibule"
+      "VEPŘOVÉ MASO Z KÝTY",
+      "KUŘECÍ ŘÍZKY",
+      "ANGLICKÁ SLANINA",
+      "KUŘECÍ JÁTRA",
+      "KLOBÁSA",
+      "ŽAMPIONY",
+      "CIBULE"
     ],
-    "instructions": "Vepřové maso nakrájíme na plátky 4X4 přibližně, totéž s řízky. Kuřecí játra vybláníme a odřízneme všechny šlachy, slabě naklepeme. Klobásu nakrájíme na kolečka, anglickou slaninu na čtverečky, žampiony rozdělíme, stopky oddělíme, klobouky oloupeme, cibuli nakrájíme oloupanou na kolečka velikost cca. 0,5 cm.\n\nNa špejli vše toto střídavě napícháme. Připravené špízy dáme na plech, trošku osolíme, potřeme olejem, posypeme grilovacím kořením. Zbytky žampionů, klobásy, slaniny, jater a podobně nakrájíme, přidáme nadrobno nakrájený česnek s cibulí (také nadrobno). Tímto posypeme špízy.\n\nTakto připravený plech dejte odležet do chladničky nejlépe přes noc. Druhý den pečeme a při pečení, které musí probíhat velmi pomalu, stále podléváme vodou a výpekem. Až je maso měkké, máme hotovo.",
+    "instructions": "Vepřové maso nakrájíme na plátky 4X4 přibližně, totéž s řízky. Kuřecí játra vybláníme a odřízneme všechny šlachy, slabě naklepeme. Klobásu nakrájíme na kolečka, anglickou slaninu na čtverečky, žampiony rozdělíme, stopky oddělíme, klobouky oloupeme, cibuli nakrájíme oloupanou na kolečka velikost cca. 0,5 cm. Na špejli vše toto střídavě napícháme. Připravené špízy dáme na plech, trošku osolíme, potřeme olejem, posypeme grilovacím kořením. Zbytky žampionů, klobásy, slaniny, jater a podobně nakrájíme, přidáme nadrobno nakrájený česnek s cibulí (také nadrobno). Tímto posypeme špízy. Takto připravený plech dejte odležet do chladničky nejlépe přes noc. Druhý den pečeme a při pečení, které musí probíhat velmi pomalu, stále podléváme vodou a výpekem. Až je maso měkké, máme hotovo.",
     "imagePath": "icons/spiz (2).png",
     "icons": [
       "icons/spiz (2).png",
@@ -194,52 +195,52 @@ const RECIPES = [
     ]
   },
   {
-    "id": "mamincina_27",
+    "id": "mamincina_26",
     "title": "Játra na cibulce",
     "category": "Játra",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 27,
+    "startPage": 26,
     "pages": [
-      27,
-      28
+      26,
+      27
     ],
     "ingredients": [
-      "400 g jater",
-      "400 g omastku",
-      "800 g cibule",
-      "Jíška",
-      "[SUB] Koření",
-      "Červená paprika",
-      "(lžička)",
-      "Majoránka",
-      "Pepř",
-      "Sůl"
+      "400 G JATER",
+      "400 G OMASTKU",
+      "800 G CIBULE",
+      "JÍŠKA",
+      "KOŘENÍ",
+      "ČERVENÁ PAPRIKA",
+      "(LŽIČKA)",
+      "MAJORÁNKA",
+      "PEPŘ",
+      "SŮL"
     ],
-    "instructions": "Játra omyjeme a nakrájíme na tenké plátky.\n\nZpěníme nakrájenou cibuli, přidáme papriku, játra, pepř, majoránku. Dusíme pod pokličkou.\n\nNásledně přidáme jíšku a podlijeme trochou horké vody. Chvíli podusíme a osolíme. Ihned podáváme.",
+    "instructions": "Játra omyjeme a nakrájíme na tenké plátky. Zpěníme nakrájenou cibuli, přidáme papriku, játra, pepř, majoránku. Dusíme pod pokličkou. Následně přidáme jíšku a podlijeme trochou horké vody. Chvíli podusíme a osolíme. Ihned podáváme.",
     "imagePath": "icons/jatranacibulce.png",
     "icons": [
       "icons/jatranacibulce.png"
     ]
   },
   {
-    "id": "mamincina_29",
+    "id": "mamincina_28",
     "title": "Játrové knedlíčky do vývaru",
     "category": "Játra",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 29,
+    "startPage": 28,
     "pages": [
-      29,
-      30
+      28,
+      29
     ],
     "ingredients": [
-      "Hovězí nebo vepřová",
-      "Játra cca. 25 dkg.",
-      "1 vejce",
-      "2 stroužky česneku"
+      "HOVĚZÍ NEBO VEPŘOVÁ",
+      "JÁTRA CCA. 25 DKG.",
+      "1 VEJCE",
+      "2 STROUŽKY ČESNEKU"
     ],
-    "instructions": "Umeleme játra na masovém mlýnku nebo rozmixujeme na kaši. Napřed ale vykrájejte všechny šlachy a hrudky. Až je kaše dost řídká, dejte ji do misky a k ní 1 vejce, 2 stroužky česneku, pepř, sůl.\n\nOpláchněte a zahustěte škrobem, aby hmota byla tak tuhá jako játrová paštika či raději hustší, aby se nerozvařila. Pak si namočte ruce a dělejte z kousků hmoty kuličky. Vývar přivedeme k varu, ale jen lehce, ne moc bublat, a dávejte do něj knedlíčky. Až vyplavou na povrch, ještě cca. 3 minuty vařte.\n\nProtože knedlíčky jsou samy o sobě výrazné, vývar uvařte slabší, bez vedlejšího ochucení, a dochucujte až po zavaření knedlíčků.",
+    "instructions": "Umeleme játra na masovém mlýnku nebo rozmixujeme na kaši. Napřed ale vykrájejte všechny šlachy a hrudky. Až je kaše dost řídká, dejte ji do misky a k ní 1 vejce, 2 stroužky česneku, pepř, sůl. Opláchněte a zahustěte škrobem, aby hmota byla tak tuhá jako játrová paštika či raději hustší, aby se nerozvařila. Pak si namočte ruce a dělejte z kousků hmoty kuličky. Vývar přivedeme k varu, ale jen lehce, ne moc bublat, a dávejte do něj knedlíčky. Až vyplavou na povrch, ještě cca. 3 minuty vařte. Protože knedlíčky jsou samy o sobě výrazné, vývar uvařte slabší, bez vedlejšího ochucení, a dochucujte až po zavaření knedlíčků.",
     "imagePath": "icons/jatroveknedlicky (2).png",
     "icons": [
       "icons/jatroveknedlicky (2).png",
@@ -247,64 +248,64 @@ const RECIPES = [
     ]
   },
   {
-    "id": "mamincina_33",
+    "id": "mamincina_32",
     "title": "Humrový salát",
     "category": "Saláty",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 33,
+    "startPage": 32,
     "pages": [
-      33,
-      34
+      32,
+      33
     ],
     "ingredients": [
-      "½ filé",
-      "Zakysaná smetana",
-      "Majonéza",
-      "Moravanka",
-      "Citron"
+      "½  FILÉ",
+      "ZAKYSANÁ SM ETANA",
+      "M AJONÉZA",
+      "M ORAVANKA",
+      "CITRON"
     ],
-    "instructions": "Filé uvaříme v osolené vodě. Rukou obereme a rozdrobíme. Rybu přisolíme a připeříme.\n\nVmícháme zakysanou smetanu, majonézu a nadrobno nakrájenou moravanku. Vše promícháme a dochutíme celým citronem.\n\nTen nedáváme najednou, ale postupně přidáváme podle chuti.",
+    "instructions": "Filé uvaříme v osolené vodě. Rukou obereme a rozdrobíme. Rybu přisolíme a připeříme. Vmícháme zakysanou smetanu, majonézu a nadrobno nakrájenou moravanku. Vše promícháme a dochutíme celým citronem. Ten nedáváme najednou, ale postupně přidáváme podle chuti.",
     "imagePath": "icons/humr.png",
     "icons": [
       "icons/humr.png"
     ]
   },
   {
-    "id": "mamincina_35",
+    "id": "mamincina_34",
     "title": "Řepový salát",
     "category": "Saláty",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 35,
+    "startPage": 34,
     "pages": [
-      35,
-      36
+      34,
+      35
     ],
     "ingredients": [
-      "40 % syrové naloupané řepy",
-      "4-5 cibulí (na 3 kg salátu)",
-      "60 % syrových brambor",
-      "1 sklenice majonézy",
-      "½ sklenice okurek",
-      "3 lžíce octa",
-      "100 ml vody",
-      "Lžička soli"
+      "40 % SYROVÉ NALOUPANÉ ŘEPY",
+      "4-5 CIBULÍ (NA 3 KG SALÁTU)",
+      "60 % SYROVÝCH BRAMBOR",
+      "1 SKLENICE MAJONÉZY",
+      "½ SKLENICE OKUREK",
+      "3 LŽÍCE OCTA",
+      "100 ML VODY",
+      "LŽIČKA SOLI"
     ],
-    "instructions": "Brambory i řepu vaříme v jednom hrnci do měkka, scedíme a vychladlé oloupeme. Řepu nastrouháme na okurkovém struhadle, po ní hned nastrouháme ½ sladkokyselých okurek a přidáme nakrájené brambory.\n\nDo druhého hrnce dáme cibuli nakrájenou na proužky, přidáme sůl, ocet, vodu (může být trochu víc) a uvedeme do varu asi na 2 minuty. Následně vodu scedíme a necháme jen trošku vody. Vysypeme do salátu a počkáme, až je vše studené a dobře promícháme. Do studeného salátu dáme majonézu a dáme do ledničky zaležet.",
+    "instructions": "Brambory i řepu vaříme v jednom hrnci do měkka, scedíme a vychladlé oloupeme. Řepu nastrouháme na okurkovém struhadle, po ní hned nastrouháme ½ sladkokyselých okurek a přidáme nakrájené brambory. Do druhého hrnce dáme cibuli nakrájenou na proužky, přidáme sůl, ocet, vodu (může být trochu víc) a uvedeme do varu asi na 2 minuty. Následně vodu scedíme a necháme jen trošku vody. Vysypeme do salátu a počkáme, až je vše studené a dobře promícháme. Do studeného salátu dáme majonézu a dáme do ledničky zaležet.",
     "imagePath": "icons/salaty.png",
     "icons": []
   },
   {
-    "id": "mamincina_39",
+    "id": "mamincina_38",
     "title": "Nakládaná krkovička",
     "category": "Vepřové maso",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 39,
+    "startPage": 38,
     "pages": [
-      39,
-      40
+      38,
+      39
     ],
     "ingredients": [
       "[SUB] Marináda",
@@ -321,7 +322,7 @@ const RECIPES = [
       "Pepř",
       "Sůl"
     ],
-    "instructions": "Vše smícháme a do připravené marinády naložíme maso. Nejlépe necháme přes noc v ledničce minimálně však dvě hodiny. Na plech nakrájíme čtyři cibule na kolečka.\n\nVyskládáme je na dno pekáče a na to pokládáme naložené maso. Dvě zbylé cibule zalejeme ½ černého piva (při pečení můžeme podlévat zbytkem). Pečeme jednu hodinu při 250 stupních.",
+    "instructions": "Vše smícháme a do připravené marinády naložíme maso. Nejlépe necháme přes noc v ledničce minimálně však dvě hodiny. Na plech nakrájíme čtyři cibule na kolečka. Vyskládáme je na dno pekáče a na to pokládáme naložené maso. Dvě zbylé cibule zalejeme ½ černého piva (při pečení můžeme podlévat zbytkem). Pečeme jednu hodinu při 250 stupních.",
     "imagePath": "icons/nakladanakrkovicka (2).png",
     "icons": [
       "icons/nakladanakrkovicka (2).png",
@@ -329,82 +330,77 @@ const RECIPES = [
     ]
   },
   {
-    "id": "mamincina_41",
+    "id": "mamincina_40",
     "title": "Troubový guláš",
     "category": "Vepřové maso",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 41,
+    "startPage": 40,
     "pages": [
-      41,
-      42
+      40,
+      41
     ],
     "ingredients": [
-      "3 až 4 velké cibule nakrájet nadrobno",
-      "1 až 1,5 kg maso (hovězí nebo vepřové)",
-      "5 stroužků česneku nasekat",
-      "2 lžičky gulášového koření",
-      "3 polévkové lžíce solamylu",
-      "3 lžičky sladké papriky",
-      "1 lžička pálivé papriky",
-      "1 rajčatový protlak",
-      "0,75 až 1 litr vody",
-      "2 kostky masoxu",
-      "Sůl podle chuti"
+      "3 AŽ 4 VELKÉ CIBULE NAKRÁJET NADROBNO",
+      "1 AŽ 1,5 KG MASO (HOVĚZÍ NEBO VEPŘOVÉ)",
+      "5 STROUŽKŮ ČESNEKU NASEKAT",
+      "2 LŽIČKY GULÁŠOVÉHO KOŘENÍ",
+      "3 POLÉVKOVÉ LŽÍCE SOLAMYLU",
+      "3 LŽIČKY SLADKÉ PAPRIKY",
+      "1 LŽIČKA PÁLIVÉ PAPRIKY",
+      "1 RAJČATOVÝ PROTLAK",
+      "0,75 AŽ 1 LITR VODY",
+      "2 KOSTKY MASOXU",
+      "SŮL PODLE CHUTI"
     ],
-    "instructions": "Maso nakrájet na kostky. Podle chuti můžeme přidat čerstvou papriku, kozí rohy nebo feferonky. Vše vložíme do pekáče, přiklopíme a dáme do trouby vyhřáté na 250 stupňů. Pečeme hodinu (vepřové) až hodinu a půl (hovězí).\n\nV ŽÁDNÉM PŘÍPADĚ NEOTVÍRÁME, NEMÍCHÁME, A UŽ VŮBEC NEKOUKÁME DOVNITŘ !!!",
+    "instructions": "Maso nakrájet na kostky. Podle chuti můžeme přidat čerstvou papriku, kozí rohy nebo feferonky. Vše vložíme do pekáče, přiklopíme a dáme do trouby vyhřáté na 250 stupňů. Pečeme hodinu (vepřové) až hodinu a půl (hovězí). V ŽÁDNÉM PŘÍPADĚ NEOTVÍRÁME, NEMÍCHÁME, A UŽ VŮBEC NEKOUKÁME DOVNITŘ !!!",
     "imagePath": "icons/troubovygulas.png",
     "icons": [
       "icons/troubovygulas.png"
     ]
   },
   {
-    "id": "mamincina_43",
+    "id": "mamincina_42",
     "title": "Guláš",
     "category": "Vepřové maso",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 43,
+    "startPage": 42,
     "pages": [
-      43,
-      44
+      42,
+      43
     ],
     "ingredients": [
-      "500 g kližky",
-      "1 lžička majoránky",
-      "[SUB] Koření",
-      "3 bobkové listy",
-      "2 stroužky česneku",
-      "Vegeta",
-      "Cibule",
-      "Sůl",
-      "Kmín"
+      "500 G KLIŽKY",
+      "1 LŽIČKA MAJORÁNKY",
+      "3 BOBKOVÉ LISTY",
+      "2 STROUŽKY ČESNEKU"
     ],
-    "instructions": "Maso uvaříme a do změknutí a přidáme papriku.\n\nDle preferencí přidáme též jíšku, kečup, cibuli.",
+    "instructions": "Maso uvaříme a do změknutí a přidáme papriku. Dle preferencí přidáme též jíšku, kečup, cibuli.",
     "imagePath": "icons/gulas.png",
     "icons": [
       "icons/gulas.png"
     ]
   },
   {
-    "id": "mamincina_45",
+    "id": "mamincina_44",
     "title": "Kýta s eidamem",
     "category": "Vepřové maso",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 45,
+    "startPage": 44,
     "pages": [
-      45,
-      46
+      44,
+      45
     ],
     "ingredients": [
-      "Nastrouhaný eidam",
-      "Francouzská hořčice",
-      "Hladká mouka",
-      "Plátek kýty",
-      "Sůl",
-      "Tuk",
-      "Pepř"
+      "NASTROUHANÝ EIDAM",
+      "FRANCOUZSKÁ HOŘČICE",
+      "HLADKÁ MOUKA",
+      "PLÁTEK KÝTY",
+      "SŮL",
+      "TUK",
+      "PEPŘ"
     ],
     "instructions": "Plátek masa naklepat, osolit, opepřit a poprášit hladkou moukou. Na pánvi rozpálit tuk a pomalu opékat. Z jedné strany maso potřít francouzskou hořčicí a otočit. Nahoru přidáme nastrouhaný sýr případně i kečup.",
     "imagePath": "icons/kytaseidamem.png",
@@ -413,200 +409,199 @@ const RECIPES = [
     ]
   },
   {
-    "id": "mamincina_47",
+    "id": "mamincina_46",
     "title": "Sekaná",
     "category": "Vepřové maso",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 47,
+    "startPage": 46,
     "pages": [
-      47,
-      48
+      46,
+      47
     ],
     "ingredients": [
-      "500 g vepřové sekané",
-      "500 g hovězí sekané",
-      "1 lžička majoránky",
-      "200 g slaniny",
-      "500 ml mléka",
-      "6 rohlíků",
-      "1 cibule",
-      "[SUB] Koření",
-      "1 lžíce soli (méně)",
-      "½ lžičky pepře"
+      "500 G VEPŘOVÉ SEKANÉ",
+      "500 G HOVĚZÍ SEKANÉ",
+      "1 LŽIČKA MAJORÁNKY",
+      "200 G SLANINY",
+      "500 ML MLÉKA      KOŘENÍ",
+      "6 ROHLÍKŮ         1 LŽÍCE SOLI (MÉNĚ)",
+      "1 CIBULE          ½ LŽIČKY PEPŘE"
     ],
-    "instructions": "Rohlíky nakrájíme a pokropíme vodou, aby se nám s nimi lépe pracovalo. Cibuli nakrájíme najemno, slaninu na malé kousky a všechny ingredience smícháme v jedné míse.\n\nPoznámka: Je důležité množství sekaného masa, nikoliv složení 1:1 z obou druhů.",
+    "instructions": "Rohlíky nakrájíme a pokropíme vodou, aby se nám s nimi lépe pracovalo. Cibuli nakrájíme najemno, slaninu na malé kousky a všechny ingredience smícháme v jedné míse. P o zn á m k a : Je d ůležité m n o žs tví sek a n éh o m a sa , n ik o liv slo žen í 1 :1 z o b ou d r u h ů.",
     "imagePath": "icons/sekana.png",
     "icons": [
       "icons/sekana.png"
     ]
   },
   {
-    "id": "mamincina_51",
+    "id": "mamincina_50",
     "title": "Kuřecí směs s červenými fazolemi",
     "category": "Luštěniny",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 51,
+    "startPage": 50,
     "pages": [
-      51,
-      52
+      50,
+      51
     ],
     "ingredients": [
-      "Nakládané červené fazole ve slaném nálevu",
-      "1-2 lžičky plnotučné hořčice",
-      "1-2 lžičky škrobové moučky",
-      "1 lžička feferonek",
-      "1-2 lžička tatarky",
-      "1-2 lžička kečupu",
-      "1-2 kostka bujónu",
-      "Sušená bazalka",
-      "2-3 kuřecí prsa",
-      "Sojová omáčka",
-      "1 větší cibule",
-      "Olej a máslo",
-      "[SUB] Koření",
-      "Pepř",
-      "Sůl"
+      "NAKLÁDANÉ ČERVENÉ FAZOLE VE SLANÉM NÁLEVU",
+      "1-2 LŽIČKY PLNOTUČNÉ HOŘČICE",
+      "1-2 LŽIČKY ŠKROBOVÉ MOUČKY",
+      "1 LŽIČKA FEFERONEK",
+      "KOŘENÍ",
+      "1-2 LŽIČKA TATARKY",
+      "PEPŘ",
+      "1-2 LŽIČKA KEČUPU",
+      "SŮL",
+      "1-2 KOSTKA BUJÓNU",
+      "SUŠENÁ BAZALKA",
+      "2-3 KUŘECÍ PRSA",
+      "SOJOVÁ OMÁČKA",
+      "1 VĚTŠÍ CIBULE",
+      "OLEJ A MÁSLO"
     ],
-    "instructions": "Na kousky nakrájená kuřecí prsa orestujeme na oleji s kouskem másla. Osolíme, opepříme, přidáme cibuli a promícháme. Zakapeme sojovou omáčkou, přidáme nakrájenou papriku a orestujeme. Přidáme kečup, hořčici, tatarku, feferonky a promícháme.\n\nZalejeme vodou a přivedeme k varu. Dle chuti přidáme bujón, bazalku a necháme maso vařit do měkka asi 15 minut. Ke konci přidáme fazole bez vody a zahustíme škrobovou moučkou.",
+    "instructions": "N a k o u sk y n a k rá je n á k u ře c í p rsa o re stu je m e n a o le ji s k o u sk e m m á sla . O so lím e , o p e p řím e , p řid á m e c ib u li a p ro m íc h á m e . Z a k a p e m e so jo v o u o m á čk o u , p řid á m e n a k rá je n o u p a p rik u a o re stu je m e . P řid á m e k e ču p , h o řčic i, ta ta rk u , fe fe ro n k y a p ro m íc h á m e . Z a le je m e v o d o u a p řiv e d e m e k v a ru . D le c h u ti p řid á m e b u jó n , b a z a lk u a n e c h á m e m a so v a řit d o m ěk k a a si 15 m in u t. K e k o n c i p řid á m e fa z o le b e z v o d y a z a h u stím e šk ro b o v o u m o u čk o u . 5 2",
     "imagePath": "icons/kurecismes.png",
     "icons": [
       "icons/kurecismes.png"
     ]
   },
   {
-    "id": "mamincina_53",
+    "id": "mamincina_52",
     "title": "Fazole s klobásou",
     "category": "Luštěniny",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 53,
+    "startPage": 52,
     "pages": [
-      53,
-      54
+      52,
+      53
     ],
     "ingredients": [
-      "200 g klobásy nebo jiné uzeniny",
-      "Minimálně 3 stroužky česneku",
-      "1 lžíce sladké papriky",
-      "2 lžíce hladké mouky",
-      "300 g bílých fazolí",
-      "2 bobkové listy",
-      "4 lžíce kečupu",
-      "1 velká cibule",
-      "2 lžíce tuku",
-      "Pažitka"
+      "200 G KLOBÁSY NEBO JINÉ UZENINY",
+      "MINIMÁLNĚ 3 STROUŽKY ČESNEKU",
+      "1 LŽÍCE SLADKÉ PAPRIKY",
+      "2 LŽÍCE HLADKÉ MOUKY",
+      "300 G BÍLÝCH FAZOLÍ",
+      "2 BOBKOVÉ LISTY",
+      "4 LŽÍCE KEČUPU",
+      "1 VELKÁ CIBULE",
+      "2 LŽÍCE TUKU",
+      "PAŽITKA"
     ],
-    "instructions": "Fazole namočíme přes noc do vody a druhý den je uvaříme z bobkovým listem do měkka. V kastrolu rozehřejeme tuk, osmahneme na něm nakrájenou cibuli, přidáme mouku, po chvíli papriku, promícháme a zalijeme vodou s kouskem masoxu nebo vývarem z uzeného bůčku za stálého míchání povaříme (omáčka musí být hustá), přidáme vařené fazole, promícháme a ochutíme solí, rozdrceným nebo nastrouhaným česnekem, kečupem a nadrobno nakrájenou pažitkou. Klobásu nebo uzeninu nakrájíme na plátky nebo kostky, můžeme je lehce opéct na troše oleje a vmíchat do fazolí. Podáváme horké.\n\nTip: Povrch můžeme ještě\n\nposypat prstýnky dozlatova osmažené cibule.",
+    "instructions": "Fazole namočíme přes noc do vody a druhý den je uvaříme z bobkovým listem do měkka. V kastrolu rozehřejeme tuk, osmahneme na něm nakrájenou cibuli, přidáme mouku, po chvíli papriku, promícháme a zalijeme vodou s kouskem masoxu nebo vývarem z uzeného bůčku za stálého míchání povaříme (omáčka musí být hustá), přidáme vařené fazole, promícháme a ochutíme solí, rozdrceným nebo nastrouhaným česnekem, kečupem a nadrobno nakrájenou pažitkou. Klobásu nebo uzeninu nakrájíme na plátky nebo kostky, můžeme je lehce opéct na troše oleje a vmíchat do fazolí. Podáváme horké. Tip: Povrch můžeme ještě posypat prstýnky dozlatova osmažené cibule.",
     "imagePath": "icons/fazolesklobasou.png",
     "icons": [
       "icons/fazolesklobasou.png"
     ]
   },
   {
-    "id": "mamincina_55",
+    "id": "mamincina_54",
     "title": "Čočka na kyselo",
     "category": "Luštěniny",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 55,
+    "startPage": 54,
     "pages": [
-      55,
-      56
+      54,
+      55
     ],
     "ingredients": [
-      "500 g čočky",
-      "300 g cibule",
-      "500 g tuku",
-      "400 g hladké mouky",
-      "250 ml vývaru",
-      "Ocet",
-      "[SUB] Koření",
-      "½ bobkového listu",
-      "Tymián",
-      "Sůl"
+      "½ BOBKOVÉHO LISTU",
+      "400 G HLADKÉ MOUKY",
+      "250 ML VÝVARU",
+      "300 G CIBULE",
+      "500 G ČOČKY",
+      "500 G TUKU",
+      "KOŘENÍ",
+      "TYMIÁN",
+      "OCET",
+      "SŮL"
     ],
-    "instructions": "Čočku namočíme na dvě až čtyři hodiny do studené vody. Potom čočku v téže vodě uvaříme do měkka.\n\nZ másla, cibule a mouky připravíme světlou jíšku.\n\nČočku podlijeme trochou vývaru a okořeníme bobkovým listem, tymiánem a krátce povaříme.\n\nDo čočky přidáme jíšku, okyselíme octem, osolíme, promícháme a ještě chvíli povaříme.",
+    "instructions": "Čočku namočíme na dvě až čtyři hodiny do studené vody. Potom čočku v téže vodě uvaříme do měkka. Z másla, cibule a mouky připravíme světlou jíšku. Čočku podlijeme trochou vývaru a okořeníme bobkovým listem, tymiánem a krátce povaříme. Do čočky přidáme jíšku, okyselíme octem, osolíme, promícháme a ještě chvíli povaříme.",
     "imagePath": "icons/cockanakyselo.png",
     "icons": [
       "icons/cockanakyselo.png"
     ]
   },
   {
-    "id": "mamincina_57",
+    "id": "mamincina_56",
     "title": "Hrášek z konzervy",
     "category": "Luštěniny",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 57,
+    "startPage": 56,
     "pages": [
-      57,
-      58
+      56,
+      57
     ],
     "ingredients": [
-      "3 konzervy hrášku",
-      "Mléko",
-      "Máslo",
-      "Mouka",
-      "Sůl",
-      "Pepř"
+      "3 KONZERVY HRÁŠKU",
+      "M LÉKO",
+      "M ÁSLO",
+      "M OUKA",
+      "SŮL",
+      "PEPŘ",
+      "Tip: Jíšku lze nahradit instantní",
+      "z krabice."
     ],
-    "instructions": "Hrášek z konzervy spolu s nálevem slijeme do hrnce a přivedeme k varu. Mezitím si připravíme jíšku. Až začne hrášek vařit, přidáme mléko a postupně i jíšku. Solíme a pepříme dle preferencí.\n\nTip: Jíšku lze nahradit instantní z krabice.",
+    "instructions": "Hrášek z konzervy spolu s nálevem slijeme do hrnce a přivedeme k varu. Mezitím si připravíme jíšku. Až začne hrášek vařit, přidáme mléko a postupně i jíšku. Solíme a pepříme dle preferencí.",
     "imagePath": "icons/hrasekzkonzervy2.png",
     "icons": [
       "icons/hrasekzkonzervy2.png"
     ]
   },
   {
-    "id": "mamincina_61",
+    "id": "mamincina_60",
     "title": "Špagety s nivou",
     "category": "Těstoviny a rizota",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 61,
+    "startPage": 60,
     "pages": [
-      61,
-      62
+      60,
+      61
     ],
     "ingredients": [
-      "200 g nivy",
-      "200 g šunky",
-      "1 šlehačka",
-      "Špagety",
-      "[SUB] Koření",
-      "Sůl",
-      "Pepř",
-      "Bylinky"
+      "200 G NIVY",
+      "200 G ŠUNKY",
+      "1 ŠLEHAČKA",
+      "ŠPAGETY",
+      "KOŘENÍ",
+      "SŮL",
+      "PEPŘ",
+      "BYLINKY"
     ],
-    "instructions": "Rozpustíme nivu ve šlehačce a povaříme. Dle chuti osolit a opepřit a přidat nadrobno nakrájenou šunku.\n\nHotovou omáčku nalijeme na špagety a podáváme.",
+    "instructions": "R o z p u stím e n iv u v e šle h a čc e a p o v a řím e . D le c h u ti o so lit a o p e p řit a p řid a t n a d ro b n o n a k rá je n o u šu n k u . H o to v o u o m á čk u n a lije m e n a šp a g e ty a p o d á v á m e . 6 2",
     "imagePath": "icons/spagetysnivou.png",
     "icons": [
       "icons/spagetysnivou.png"
     ]
   },
   {
-    "id": "mamincina_63",
+    "id": "mamincina_62",
     "title": "Carbonara",
     "category": "Těstoviny a rizota",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 63,
+    "startPage": 62,
     "pages": [
-      63,
-      64
+      62,
+      63
     ],
     "ingredients": [
-      "100 g pancetty",
-      "50 g sýr pecorino",
-      "50 g parmazán",
-      "Špagety",
-      "3 vejce",
-      "Česnek",
-      "Máslo",
-      "[SUB] Koření",
-      "Pepř",
-      "Sůl"
+      "100 G PANCETTY",
+      "50 G SÝR PECORINO",
+      "50 G PARMAZÁN",
+      "ŠPAGETY",
+      "3 VEJCE",
+      "ČESNEK",
+      "MÁSLO",
+      "KOŘENÍ",
+      "PEPŘ",
+      "SŮL"
     ],
     "instructions": "Špagety uvaříme v osolené vodě na skus (al dente). Mezitím v misce prošleháme vejce se solí, pepřem a většinou nastrouhaného sýra. Na pánvi na másle opečeme nadrobno nakrájenou pancettu s zmáčknutým česnekem, který po pěti minutách z pánve vyjmeme. Uvařené těstoviny slijeme (trochu vody si schováme), přisypeme je do pánve k pancettě a zakápneme lžící horké vody z těstovin. Pánev stáhneme z ohně, vlijeme vaječnou směs se sýrem a rychle promícháváme, dokud nevznikne hladká krémová omáčka. Ihned podáváme posypané zbylým sýrem a čerstvě mletým pepřem.",
     "imagePath": "icons/carbonara.png",
@@ -615,53 +610,52 @@ const RECIPES = [
     ]
   },
   {
-    "id": "mamincina_65",
+    "id": "mamincina_64",
     "title": "Špagety s rajčatovou omáčkou",
     "category": "Těstoviny a rizota",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 65,
+    "startPage": 64,
     "pages": [
-      65,
-      66
+      64,
+      65
     ],
     "ingredients": [
-      "2 konzervy rajčat v konzervě",
-      "Schwardwalská šunka",
-      "Sýr na posyp",
-      "Špagety",
-      "Olivy",
-      "[SUB] Koření",
-      "Provensálské",
-      "Pepř",
-      "Sůl"
+      "2 KONZERVY RAJČAT V KONZERVĚ",
+      "SCHWARDWALSKÁ ŠUNKA",
+      "SÝR NA POSYP",
+      "ŠPAGETY",
+      "OLIVY"
     ],
-    "instructions": "Rajčatové konzervy dáme do hrnce a přivedeme k varu. Mezitím nakrájíme jednu polovinu oliv.\n\nOmáčku okořeníme dle chuti a přidáme nakrájené olivy. Připravíme těstoviny či noky a poléváme je hotovou omáčkou. Nahoru klademe schwarzwaldskou šunku a posypeme sýrem. Můžeme ozdobit i lístky bazalky.",
+    "instructions": "Rajčatové konzervy dáme do hrnce a přivedeme k varu. Mezitím nakrájíme jednu polovinu oliv. Omáčku okořeníme dle chuti a přidáme nakrájené olivy. Připravíme těstoviny či noky a poléváme je hotovou omáčkou. Nahoru klademe schwarzwaldskou šunku a posypeme sýrem. Můžeme ozdobit i lístky bazalky.",
     "imagePath": "icons/spagetysrajcatovouomackou.png",
     "icons": [
       "icons/spagetysrajcatovouomackou.png"
     ]
   },
   {
-    "id": "mamincina_67",
+    "id": "mamincina_66",
     "title": "Zapečené těstoviny",
     "category": "Těstoviny a rizota",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 67,
+    "startPage": 66,
     "pages": [
-      67,
-      68
+      66,
+      67
     ],
     "ingredients": [
-      "300 g těstovin",
-      "Uzené",
-      "250 ml mléka",
-      "6 vajec",
-      "Půlka lžíce soli",
-      "Pepř"
+      "300 G TĚSTOVIN",
+      "UZENÉ",
+      "250 ML MLÉKA",
+      "6 VAJEC",
+      "PŮLKA LŽÍCE SOLI",
+      "PEPŘ",
+      "Tip: Možnost přidání zeleniny.",
+      "Konzerva nebo zmrazená směs",
+      "hrášku či libovolné jiné zeleniny."
     ],
-    "instructions": "Těstoviny uvaříme a slijeme. Vajíčka promícháme s mlékem, osolíme, opepříme, přidáme zeleninu.\n\nStrčíme do trouby na 25-30 minut na 170 stupňů.\n\nMůžeme přikrýt na začátku alobalem, který na konečných 10-15 minut odděláme, aby se na těstovinách vytvořila horní krustička.\n\nTip: Možnost přidání zeleniny. Konzerva nebo zmrazená směs hrášku či libovolné jiné zeleniny.",
+    "instructions": "Těstoviny uvaříme a slijeme. Vajíčka promícháme s mlékem, osolíme, opepříme, přidáme zeleninu. Strčíme do trouby na 25-30 minut na 170 stupňů. Můžeme přikrýt na začátku alobalem, který na konečných 10-15 minut odděláme, aby se na těstovinách vytvořila horní krustička.",
     "imagePath": "icons/zapecenetestoviny.png",
     "icons": [
       "icons/zapecenetestoviny.png",
@@ -669,159 +663,167 @@ const RECIPES = [
     ]
   },
   {
-    "id": "mamincina_69",
+    "id": "mamincina_68",
     "title": "Rizoto z konzervy",
     "category": "Těstoviny a rizota",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 69,
+    "startPage": 68,
     "pages": [
-      69,
-      70
+      68,
+      69
     ],
     "ingredients": [
-      "500 ml rýže",
-      "1 hrášek",
-      "1 l vody",
-      "1 větší cibule",
-      "1 hovězí konzerva",
-      "1 lžička papriky",
-      "1 lžička kmínu",
-      "1 lžička vegety",
-      "Trochu soli"
+      "500 ML RÝŽE",
+      "1 HRÁŠEK",
+      "1 L VODY",
+      "1 VĚTŠÍ CIBULE",
+      "1 HOVĚZÍ KONZERVA",
+      "1 LŽIČKA PAPRIKY",
+      "1 LŽIČKA KMÍNU",
+      "1 LŽIČKA VEGETY",
+      "TROCHU SOLI       Tip: Vše vaříme v jednom hrnci,",
+      "aby přidané koření hezky obarvilo",
+      "rýži."
     ],
-    "instructions": "Do hrnce vložíme nakrájenou cibuli, hovězí konzervu, hrášek a rýži, přidáme papriku, kmín, vegetu a trochu soli, zalijeme vodou a přivedeme k varu. Po mírném povaření, dokud rýže není téměř měkká, přeneseme hrnec do trouby předehřáté na 180 °C a pečeme, až se na povrchu vytvoří jemná zlatavá krustička.\n\nTip: Vše vaříme v jednom hrnci, aby přidané koření hezky obarvilo rýži.",
+    "instructions": "Do hrnce vložíme nakrájenou cibuli, hovězí konzervu, hrášek a rýži, přidáme papriku, kmín, vegetu a trochu soli, zalijeme vodou a přivedeme k varu. Po mírném povaření, dokud rýže není téměř měkká, přeneseme hrnec do trouby předehřáté na 180 °C a pečeme, až se na povrchu vytvoří jemná zlatavá krustička.",
     "imagePath": "icons/rizoto.png",
     "icons": [
       "icons/rizoto.png"
     ]
   },
   {
-    "id": "mamincina_73",
+    "id": "mamincina_72",
     "title": "Kynuté knedlíky",
     "category": "Bezmasé",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 73,
+    "startPage": 72,
     "pages": [
-      73,
-      74
+      72,
+      73
     ],
     "ingredients": [
-      "½ kg hrubé mouky",
-      "Necelých ¼ l mléka",
-      "200 g droždí",
-      "2 kostky cukru",
-      "1 vejce",
-      "½ lžíce soli"
+      "½ KG HRUBÉ MOUKY",
+      "NECELÝCH ¼ L MLÉKA",
+      "200 G DROŽDÍ",
+      "2 KOSTKY CUKRU",
+      "1 VEJCE",
+      "½  LŽÍCE SOLI"
     ],
     "instructions": "Připravíme kvásek z části vlažného mléka, cukru a droždí, necháme cca 20 minut vzejít. Do mísy dáme zbylé suroviny a vypracujeme těsto. Necháme kynout 30–40 minut. Těsto rozdělíme na 3–4 díly a vyválíme šišky. Ty přikryté necháme ještě nakynout. Knedlíky vaříme na páře cca 30 minut. Po uvaření je propíchneme špejlí a povrch lehce potřeme olejem, aby neosychaly.",
     "imagePath": "icons/bezmase.png",
     "icons": []
   },
   {
-    "id": "mamincina_75",
+    "id": "mamincina_74",
     "title": "Bramboráky",
     "category": "Bezmasé",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 75,
+    "startPage": 74,
     "pages": [
-      75,
-      76
+      74,
+      75
     ],
     "ingredients": [
-      "1 kg moučných brambor",
-      "4-6 lžic hladké mouky",
-      "2 vejce",
-      "Mléko",
-      "Česnek",
-      "4-6 velkých stroužků česneku",
-      "Olej",
-      "[SUB] Koření",
-      "3-4 hrstky majoránky",
-      "Pepř",
-      "Sůl"
+      "4-6 VELKÝCH STROUŽKŮ ČESNEKU",
+      "1 KG MOUČNÝCH BRAMBOR",
+      "4-6 LŽIC HLADKÉ MOUKY",
+      "3-4 HRSTKY MAJORÁNKY",
+      "2 VEJCE",
+      "MLÉKO",
+      "OLEJ",
+      "KOŘENÍ",
+      "ČESNEK",
+      "PEPŘ",
+      "SŮL"
     ],
-    "instructions": "Brambory oloupeme, omyjeme, osušíme a ½ nastrouháme na hrubém struhadle a ½ na jemném struhadle do mísy. Rozmačkáme, aby pustily škrob a vodu, tu poté slijeme. Osolíme je a zakapeme trochou mléka, aby nezhnědly.\n\nVmícháme vajíčko, majoránku, prolisovaný česnek, podle chuti přisolíme a připepříme.\n\nNásledně dáme hladkou mouku a důkladně promícháme ve středně husté těsto. Na silné vrstvě oleje smažíme. Smažíme dozlatova z obou stran a pokládáme na kuchyňský papír, aby nasákl přebytečný tuk.\n\nTip: Můžeme přidat i sýr, houby,\n\nkapustu, uzené maso, klobásu.\n\nPodáváme s pivem nebo kyselým mlékem, popřípadě zákysem.",
+    "instructions": "Brambory oloupeme, omyjeme, osušíme a ½ nastrouháme na hrubém struhadle a ½ na jemném struhadle do mísy. Rozmačkáme, aby pustily škrob a vodu, tu poté slijeme. Osolíme je a zakapeme trochou mléka, aby nezhnědly. Vmícháme vajíčko, majoránku, prolisovaný česnek, podle chuti přisolíme a připepříme. Následně dáme hladkou mouku a důkladně promícháme ve středně husté těsto. Na silné vrstvě oleje smažíme. Smažíme dozlatova z obou stran a pokládáme na kuchyňský papír, aby nasákl přebytečný tuk. T ip : M ůžem e p řid a t i sýr , h o u b y, k a p u stu , u zen é m a so , k lo b á su . P o d á vá m e s p ivem n eb o k yselým m lék em , p o p říp a d ě zá k ysem .",
     "imagePath": "icons/bezmase.png",
     "icons": []
   },
   {
-    "id": "mamincina_77",
+    "id": "mamincina_76",
     "title": "Zelňáky",
     "category": "Bezmasé",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 77,
+    "startPage": 76,
     "pages": [
-      77,
-      78
+      76,
+      77
     ],
     "ingredients": [
-      "Salám (nebo uzené)",
-      "½ hrnku mléka",
-      "1 hrnek mouky",
-      "½ hlávky zelí",
-      "2 vejce",
-      "Olej",
-      "[SUB] Koření",
-      "Pálivá paprika",
-      "Sůl (hodně)",
-      "Podravka",
-      "Pepř",
-      "Sůl"
+      "SALÁM (NEBO UZENÉ)",
+      "½ HRNKU MLÉKA",
+      "1 HRNEK MOUKY",
+      "½ HLÁVKY ZELÍ",
+      "2 VEJCE",
+      "KOŘENÍ",
+      "OLEJ",
+      "PÁLIVÁ PAPRIKA",
+      "SŮL (HODNĚ)",
+      "PODRAVKA",
+      "PEPŘ",
+      "SŮL",
+      "Poznámka: Recept podle oka.",
+      "Mouka většinou polohrubá.",
+      "Když přidáme prášek na pečení,",
+      "stane se z toho více buchta.",
+      "Můžeme přidat i uzené maso",
+      "nebo salám."
     ],
-    "instructions": "Zelí nastrouháme, přidáme salám nebo uzené na kostičky a ostatní ingredience. Dáme na plech vyložený pečícím papírem a urovnáme do placky. Pečeme 30 minut na 180 stupňů.\n\nPoznámka: Recept podle oka. Mouka většinou polohrubá. Když přidáme prášek na pečení, stane se z toho více buchta. Můžeme přidat i uzené maso nebo salám.",
+    "instructions": "Zelí nastrouháme, přidáme salám nebo uzené na kostičky a ostatní ingredience. Dáme na plech vyložený pečícím papírem a urovnáme do placky. Pečeme 30 minut na 180 stupňů.",
     "imagePath": "icons/zelnaky.png",
     "icons": [
       "icons/zelnaky.png"
     ]
   },
   {
-    "id": "mamincina_81",
+    "id": "mamincina_80",
     "title": "Pšeničná tortilla",
     "category": "Pečivo",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 81,
+    "startPage": 80,
     "pages": [
-      81,
-      82
+      80,
+      81
     ],
     "ingredients": [
-      "12 kousků",
-      "500 g hladké mouky",
-      "120 ml teplé vody",
-      "1 prášek do pečiva",
-      "6 lžic tuku (sádlo nebo olej)",
-      "Špetka soli"
+      "12 KOUSKŮ",
+      "500 G HLADKÉ MOUKY",
+      "120 ML TEPLÉ VODY",
+      "1 PRÁŠEK DO PEČIVA",
+      "6 LŽIC TUKU (SÁDLO NEBO OLEJ)",
+      "ŠPETKA SOLI"
     ],
-    "instructions": "Smícháme mouku, prášek do pečiva a sůl ve velké míse.\n\nZapracujeme tuk a postupně přidáváme vodu.\n\nVypracujeme těsto, které vyklopíme na posypanou plochu a 10-15 minut hněteme, až je těsto pružné.\n\nTěsto poté rozdělíme na 12 dílů a uděláme v dlaních kuličky, které zabalíme do fólie, aby nevyschly.\n\nZ kuliček pak tvoříme placky asi 25 cm veliké a pečeme na suché pánvi asi 45 sekund až 1 minutu. Hotové jsou až začnou hnědnout, nebo se začnou objevovat puchýře, pak otočíme a pečeme i druhou stranu.\n\nUpečené zabalíme do čisté utěrky, aby zůstaly měkké.\n\nPoznámka: Pokud je chcete ohřát, pokropte je kapkami vody, aby nevyschly.",
+    "instructions": "Smícháme mouku, prášek do pečiva a sůl ve velké míse. Zapracujeme tuk a postupně přidáváme vodu. Vypracujeme těsto, které vyklopíme na posypanou plochu a 10-15 minut hněteme, až je těsto pružné. Těsto poté rozdělíme na 12 dílů a uděláme v dlaních kuličky, které zabalíme do fólie, aby nevyschly. Z kuliček pak tvoříme placky asi 25 cm veliké a pečeme na suché pánvi asi 45 sekund až 1 minutu. Hotové jsou až začnou hnědnout, nebo se začnou objevovat puchýře, pak otočíme a pečeme i druhou stranu. Upečené zabalíme do čisté utěrky, aby zůstaly měkké. P o zn á m k a : P o k u d je c h c ete o h řá t, p o k r o p te je k a p k a m i vo d y, a b y n evysc h ly.",
     "imagePath": "icons/pecivo.png",
     "icons": []
   },
   {
-    "id": "mamincina_83",
+    "id": "mamincina_82",
     "title": "Tousty",
     "category": "Pečivo",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 83,
+    "startPage": 82,
     "pages": [
-      83,
-      84
+      82,
+      83
     ],
     "ingredients": [
-      "Na 1 veku",
-      "3 žloutky",
-      "Sůl, pepř",
-      "Strouhanka",
-      "150 g eidamu",
-      "3 bílky na sníh",
-      "150 g měkkého salámu"
+      "NA 1 VEKU",
+      "3 ŽLOUTKY",
+      "SŮL, PEPŘ",
+      "STROUHANKA",
+      "150 G EIDAMU",
+      "3 BÍLKY NA SNÍH",
+      "150 G MĚKKÉHO SALÁMU"
     ],
-    "instructions": "Eidam i salám nastrouháme či nakrájíme najemno.\n\nSmícháme spolu s ušlehanými žloutky. Osolíme a opepříme a přidáme strouhanku. Ušleháme bílkový sníh a přidáme do hmoty, se kterou potíráme plátky veky. Smažíme na větší vrstvě oleje natřenou stranou dolů. Na talíři zdobíme kečupem, rajčaty a cibulí.",
+    "instructions": "Eidam i salám nastrouháme či nakrájíme najemno. Smícháme spolu s ušlehanými žloutky. Osolíme a opepříme a přidáme strouhanku. Ušleháme bílkový sníh a přidáme do hmoty, se kterou potíráme plátky veky. Smažíme na větší vrstvě oleje natřenou stranou dolů. Na talíři zdobíme kečupem, rajčaty a cibulí.",
     "imagePath": "icons/tousty (2).png",
     "icons": [
       "icons/tousty (2).png",
@@ -829,94 +831,116 @@ const RECIPES = [
     ]
   },
   {
-    "id": "mamincina_85",
+    "id": "mamincina_84",
     "title": "Zapečený chlebík",
     "category": "Pečivo",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 85,
+    "startPage": 84,
     "pages": [
-      85,
-      86
+      84,
+      85
     ],
     "ingredients": [
-      "1 chleba (celý nebo jen polovina)",
-      "Máslo",
-      "4 stroužky česneku",
-      "Sůl",
-      "Pepř",
-      "Salámek",
-      "Sýr",
-      "Vajíčko",
-      "Cibule",
-      "Zelenina"
+      "1 CHLEBA (CELÝ NEBO JEN POLOVINA)",
+      "MÁSLO",
+      "4 STROUŽKY ČESNEKU",
+      "SŮL",
+      "PEPŘ",
+      "SALÁMEK",
+      "SÝR",
+      "VAJÍČKO",
+      "CIBULE",
+      "ZELENINA"
     ],
-    "instructions": "Chléb rozdělte na tenké plátky, asi tak 1,5 cm, co nejvíce rozkrojte dolů, ale aby zůstal pohromadě.\n\nZ obou stran potřete krajíce máslem s česnekem, solí a pepřem. Následně obložte krajíce podle libosti a lednice. Podle množství sýru přidejte i vajíčko.\n\nPovrch chlebíku potíráme máslem s česnekem a zabalíme chlebík do alobalu. Na plechu ho pečeme asi na 200 stupňů 20 minut. Po upečení rozřežeme na plátky.",
+    "instructions": "Chléb rozdělte na tenké plátky, asi tak 1,5 cm, co nejvíce rozkrojte dolů, ale aby zůstal pohromadě. Z obou stran potřete krajíce máslem s česnekem, solí a pepřem. Následně obložte krajíce podle libosti a lednice. Podle množství sýru přidejte i vajíčko. Povrch chlebíku potíráme máslem s česnekem a zabalíme chlebík do alobalu. Na plechu ho pečeme asi na 200 stupňů 20 minut. Po upečení rozřežeme na plátky.",
     "imagePath": "icons/zapecenychlebik.png",
     "icons": [
       "icons/zapecenychlebik.png"
     ]
   },
   {
-    "id": "mamincina_87",
+    "id": "mamincina_86",
     "title": "Slané koláčky",
     "category": "Pečivo",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 87,
+    "startPage": 86,
     "pages": [
-      87,
-      88
+      86,
+      87
     ],
     "ingredients": [
-      "Listové těsto",
-      "[SUB] Náplň",
-      "Niva/eidam",
-      "Šunka",
-      "(nadrobno)",
-      "Tavený sýr"
+      "LISTOVÉ TĚSTO",
+      "NÁPLŇ",
+      "NIVA/EIDAM",
+      "ŠUNKA",
+      "(NADROBNO)",
+      "TAVENÝ SÝR"
     ],
-    "instructions": "Listové těsto silné 2 mm vykrajujeme na čtverečky a plníme náplní. Náplň musí mít hustotu hmoty, ze které budeme vytvářet kuličky, které položíme doprostřed našich čtverečků. Jemně vytvarujeme koláčky. Koláčky potřeme vajíčkem a posypeme strouhaným eidamem s kmínem, popřípadě paprikou.\n\nPečeme na 220 stupňů.\n\nTip: Náplň můžeme vylepšit\n\nkukuřicí, ochuceným špenátem a podobně.",
+    "instructions": "Listové těsto silné 2 mm vykrajujeme na čtverečky a plníme náplní. Náplň musí mít hustotu hmoty, ze které budeme vytvářet kuličky, které položíme doprostřed našich čtverečků. Jemně vytvarujeme koláčky. Koláčky potřeme vajíčkem a posypeme strouhaným eidamem s kmínem, popřípadě paprikou. Pečeme na 220 stupňů. T ip : N á p lň m ůžem e vylep šit k u k u řic í, o c h u c en ým šp en á tem a p o d o b n ě.",
     "imagePath": "icons/slanekolacky.png",
     "icons": [
       "icons/slanekolacky.png"
     ]
   },
   {
-    "id": "mamincina_91",
+    "id": "mamincina_90",
     "title": "Základní omáčka",
+    "category": "Omáčky",
+    "bookKey": "mamincina",
+    "bookTitle": "Maminčina kuchařka",
+    "startPage": 90,
+    "pages": [
+      90,
+      91
+    ],
+    "ingredients": [
+      "500 G TUKU (MÁSLA)",
+      "500 G HLADKÉ MOUKY",
+      "1 LITR VÝVARU",
+      "Postup",
+      "Uděláme světlou jíšku,",
+      "stáhneme z plotny a za stálého",
+      "míchání přiléváme část",
+      "studeného vývaru. Teprve když",
+      "je jíška do hladkosti",
+      "promíchaná, přilijeme zbytek",
+      "vývaru. Přistavíme na oheň a za",
+      "stálého míchání ji asi 20 minut",
+      "povaříme.",
+      "Poznámka: Z této směsi vyjde asi",
+      "750 ml omáčky."
+    ],
+    "instructions": "Do základní omáčky přidáme sůl, trochu cukru. Zjemníme ji žloutkem rozkvedlaným ve smetaně. Nakonec přimícháme do omáčky nastrouhaný křen. Ochutnáme a případně přidáme křen, sůl, pepř.",
+    "imagePath": "icons/omacky.png",
+    "icons": []
+  },
+  {
+    "id": "mamincina_91",
+    "title": "Křenová omáčka",
     "category": "Omáčky",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
     "startPage": 91,
     "pages": [
-      91
-    ],
-    "ingredients": [
-      "500 g tuku (másla)",
-      "500 g hladké mouky",
-      "1 litr vývaru"
-    ],
-    "instructions": "Uděláme světlou jíšku, stáhneme z plotny a za stálého míchání přiléváme část studeného vývaru. Teprve když je jíška do hladkosti promíchaná, přilijeme zbytek vývaru. Přistavíme na oheň a za stálého míchání ji asi 20 minut povaříme.\n\nPoznámka: Z této směsi vyjde asi 750 ml omáčky.",
-    "imagePath": "icons/omacky.png",
-    "icons": []
-  },
-  {
-    "id": "mamincina_92",
-    "title": "Křenová omáčka",
-    "category": "Omáčky",
-    "bookKey": "mamincina",
-    "bookTitle": "Maminčina kuchařka",
-    "startPage": 92,
-    "pages": [
+      91,
       92
     ],
     "ingredients": [
-      "300 g nastrouhaného křenu",
-      "500 ml smetany",
-      "Žloutek",
-      "Cukr",
-      "Sůl"
+      "300 G NASTROUHANÉHO KŘENU",
+      "500 ML SMETANY",
+      "ŽLOUTEK",
+      "CUKR",
+      "SŮL",
+      "Postup",
+      "Do základní omáčky přidáme sůl, trochu cukru.",
+      "Zjemníme ji žloutkem",
+      "rozkvedlaným ve smetaně.",
+      "Nakonec přimícháme do",
+      "omáčky nastrouhaný křen.",
+      "Ochutnáme a případně",
+      "přidáme křen, sůl, pepř."
     ],
     "instructions": "rozkvedlaným ve smetaně.\n\nNakonec přimícháme do omáčky nastrouhaný křen.\n\nOchutnáme a případně přidáme křen, sůl, pepř.\n\nDo základní omáčky přidáme sůl, trochu cukru.",
     "imagePath": "icons/krenova.png",
@@ -925,29 +949,27 @@ const RECIPES = [
     ]
   },
   {
-    "id": "mamincina_93",
+    "id": "mamincina_92",
     "title": "Svíčková omáčka",
     "category": "Omáčky",
     "bookKey": "mamincina",
     "bookTitle": "Maminčina kuchařka",
-    "startPage": 93,
+    "startPage": 92,
     "pages": [
-      93,
-      94
+      92,
+      93
     ],
     "ingredients": [
-      "[SUB] Základ",
-      "1 bobkový list",
-      "Vepřové maso",
-      "Nové koření",
-      "Petržel",
-      "Mrkev",
-      "Celer",
-      "Pepř",
-      "Sůl",
-      "[SUB] Na omáčku",
-      "Kysaná smetana",
-      "1-3 lžíce hladké mouky"
+      "1 BOBKOVÝ LIST",
+      "VEPŘOVÉ MASO",
+      "NOVÉ KOŘENÍ",
+      "PETRŽEL",
+      "MRKEV       NA OMÁČKU",
+      "KYSANÁ SMETANA",
+      "CELER",
+      "1-3 LŽÍCE HLADKÉ MOUKY",
+      "PEPŘ",
+      "SŮL"
     ],
     "instructions": "Maso nasolit a potřít olejem a společně s nastrouhanou zeleninou nechat uležet v lednici 2 dny. Po uležení maso vyndáme, zalijeme vodou, okořeníme bobkovým listem, přidáme pepř, nové koření a v troubě vyhřáté na 180 °C pečeme zhruba 60 minut. Po hodině vyndáme maso a v zeleninovém základu rozmixujeme kysanou smetanu s hladkou moukou. Nakrájet maso a vše smíchat. Pro lepší chuť nechat uležet.",
     "imagePath": "icons/svickova.png",
@@ -1573,7 +1595,7 @@ const RECIPES = [
     ],
     "ingredients": [
       "3 vejce",
-      "250 moučkového cukru",
+      "250 g moučkového cukru",
       "200 ml oleje",
       "1 vanilkový cukr",
       "2 lžičky mleté skořice",
@@ -1613,7 +1635,7 @@ const RECIPES = [
       "cukr dle chuti",
       "máslo"
     ],
-    "instructions": "Žloutky, oba druhy cukrů a vlažnou vodu utřeme dohromady. Následně přidáme ostatní suroviny a zakončíme přidávání vyšlehaným sněhem. Na vysypaný a vymazaný plech (nebo vyložený pečícím papríem) nalijeme ½ těsta. Do zbylé poloviny přidáme kakao. Kakaové těsto pak přidáme na základní a vytvoříme pudink. Ten naléváme na syrové těsto a můžeme péct. Po upečení potřeme zakysanou smetanou a posypeme grankem. Dáme vychladit a můžeme podávat.",
+    "instructions": "Žloutky, oba druhy cukrů a vlažnou vodu utřeme dohromady. Následně přidáme ostatní suroviny a zakončíme přidávání vyšlehaným sněhem. Na vysypaný a vymazaný plech (nebo vyložený pečícím papírem) nalijeme ½ těsta. Do zbylé poloviny přidáme kakao. Kakaové těsto pak přidáme na základní a vytvoříme pudink. Ten naléváme na syrové těsto a můžeme péct. Po upečení potřeme zakysanou smetanou a posypeme grankem. Dáme vychladit a můžeme podávat.",
     "imagePath": "",
     "icons": []
   },
@@ -1694,7 +1716,7 @@ const RECIPES = [
       "čokoláda na vaření",
       "zakysaná smetana"
     ],
-    "instructions": "Vejce s cukrem a olej vyšleháme. Přidáme nastrouhaná jablíčka a mouku smíchanou se skořicí a práškem do pečiva. Přisypeme ořechy, rozinky a popřípadě i kandované ovoce. čku těsto naplníme do mazaného a moukou vysypaného pekáčku a pečeme. Rozpustíme si čokoládu a do ní zamícháme celý kelímek kysané smetany. Potřeme korpus a můžeme posypat ořechy, nebo kokosem.",
+    "instructions": "Vejce s cukrem a olejem (nebo rozpuštěným tukem) vyšleháme do pěny. Přidáme nastrouhaná jablíčka, citrónovou kůru a mouku předem smíchanou se skořicí a práškem do pečiva. Do směsi přisypeme nasekané ořechy, rozinky (ideálně předem namočené v rumu) a popřípadě i kandované ovoce. Vzniklé těsto důkladně promícháme a naplníme do vymazaného a moukou vysypaného pekáčku. Pečeme v předehřáté troubě na 175–180 °C přibližně 25 až 35 minut. Upečený korpus necháme vychladnout. Mezitím si ve vodní lázni rozpustíme čokoládu na vaření a po odstavení do ní okamžitě zamícháme celý kelímek zakysané smetany pokojové teploty, čímž vznikne hladký krém. Hotovou polevou potřeme vychladlý korpus a navrch podle chuti posypeme nasekanými ořechy nebo kokosem.",
     "imagePath": "",
     "icons": []
   },
@@ -1769,7 +1791,7 @@ const RECIPES = [
     ],
     "ingredients": [
       "500 g hladké mouky",
-      "½ lahve piva destíky",
+      "½ lahve piva desítky",
       "175 g Hery",
       "[SUB] NÁPLŇ",
       "nastrouhaná jablíčka/hrušky",
@@ -2101,7 +2123,7 @@ const RECIPES = [
       "250 g másla",
       "1 vanilkový cukr"
     ],
-    "instructions": "Nejprve se všechny suroviny na těsto smíchají dohromady na válu. Mouka se přidává podle toho, aby těsto nelepilo, ale dalo se válet válečkem na placky velikosti plechu. Placky by měli být asi 1 cm vysoké a válí se na pečícím papíře namazaným máslem. Na celý dort je třeba udělat celkem čtyři placky a Jednu menší, která se nakonec rozdrobí na ozdobu tečka A čeho se v troubě vyhřáté na maximum. Obvykle 250 stupňů přibližně 3-4 minuty. Před dalším použitím musí vychladnout.\n\nKondenzované mléko vaříme ve vodní lázni 2 hodiny, dokud nezkaramelizuje. Plechovku vaříme celou a neotevřenou. Poté se nechá vychladnout.\n\nDo šlehací mísy vložíme celé máslo v pokojové teplotě, vanilkový cukr, s karamelizovaném mléko a šlehačem vyšleháme na hustý krém. krém mažeme na vychladné placky, a vznikne dort, poslední vrstvu tvoří krém na který se sype rozdrobená pátá menší pilatka. Necháme den uložit v lednici.\n\nTip: Můžeme přidat i mleté oříšky do rozdrobené směsi na ozdobu.",
+    "instructions": "Nejprve se všechny suroviny na těsto smíchají dohromady na válu. Mouka se přidává podle toho, aby těsto nelepilo, ale dalo se válet válečkem na placky velikosti plechu. Placky by měly být asi 1 cm vysoké a válí se na pečícím papíře namazaným máslem. Na celý dort je třeba udělat celkem čtyři placky a jednu menší, která se nakonec rozdrobí na ozdobu. Pečou se v troubě vyhřáté na maximum. Obvykle 250 stupňů přibližně 3-4 minuty. Před dalším použitím musí vychladnout.\n\nKondenzované mléko vaříme ve vodní lázni 2 hodiny, dokud nezkaramelizuje. Plechovku vaříme celou a neotevřenou. Poté se nechá vychladnout.\n\nDo šlehací mísy vložíme celé máslo v pokojové teplotě, vanilkový cukr, zkaramelizované mléko a šlehačem vyšleháme na hustý krém. Krém mažeme na vychladlé placky a vznikne dort. Poslední vrstvu tvoří krém, na který se sype rozdrobená pátá menší placka. Necháme den uložit v lednici.\n\nTip: Můžeme přidat i mleté oříšky do rozdrobené směsi na ozdobu.",
     "imagePath": "",
     "icons": []
   },
