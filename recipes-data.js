@@ -5,7 +5,7 @@ const RECIPES = [
         "category": "Polévky",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 7,
+        "startPage": 8,
         "pages": [
             8,
             9
@@ -31,7 +31,7 @@ const RECIPES = [
         "category": "Polévky",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 9,
+        "startPage": 10,
         "pages": [
             10,
             11
@@ -55,7 +55,7 @@ const RECIPES = [
         "category": "Polévky",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 11,
+        "startPage": 12,
         "pages": [
             12,
             13
@@ -84,7 +84,7 @@ const RECIPES = [
         "category": "Kuře",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 15,
+        "startPage": 16,
         "pages": [
             16,
             17
@@ -113,7 +113,7 @@ const RECIPES = [
         "category": "Kuře",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 17,
+        "startPage": 18,
         "pages": [
             18,
             19
@@ -144,7 +144,7 @@ const RECIPES = [
         "category": "Kuře",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 19,
+        "startPage": 20,
         "pages": [
             20,
             21
@@ -171,7 +171,7 @@ const RECIPES = [
         "category": "Kuře",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 21,
+        "startPage": 22,
         "pages": [
             22,
             23
@@ -198,7 +198,7 @@ const RECIPES = [
         "category": "Játra",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 25,
+        "startPage": 26,
         "pages": [
             26,
             27
@@ -226,7 +226,7 @@ const RECIPES = [
         "category": "Játra",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 27,
+        "startPage": 28,
         "pages": [
             28,
             29
@@ -250,7 +250,7 @@ const RECIPES = [
         "category": "Saláty",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 31,
+        "startPage": 32,
         "pages": [
             32,
             33
@@ -274,7 +274,7 @@ const RECIPES = [
         "category": "Saláty",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 33,
+        "startPage": 34,
         "pages": [
             34,
             35
@@ -299,7 +299,7 @@ const RECIPES = [
         "category": "Vepřové maso",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 37,
+        "startPage": 38,
         "pages": [
             38,
             39
@@ -332,7 +332,7 @@ const RECIPES = [
         "category": "Vepřové maso",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 39,
+        "startPage": 40,
         "pages": [
             40,
             41
@@ -362,7 +362,7 @@ const RECIPES = [
         "category": "Vepřové maso",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 41,
+        "startPage": 42,
         "pages": [
             42,
             43
@@ -385,7 +385,7 @@ const RECIPES = [
         "category": "Vepřové maso",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 43,
+        "startPage": 44,
         "pages": [
             44,
             45
@@ -411,7 +411,7 @@ const RECIPES = [
         "category": "Vepřové maso",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 45,
+        "startPage": 46,
         "pages": [
             46,
             47
@@ -437,7 +437,7 @@ const RECIPES = [
         "category": "Luštěniny",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 49,
+        "startPage": 50,
         "pages": [
             50,
             51
@@ -471,7 +471,7 @@ const RECIPES = [
         "category": "Luštěniny",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 51,
+        "startPage": 52,
         "pages": [
             52,
             53
@@ -500,7 +500,7 @@ const RECIPES = [
         "category": "Luštěniny",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 53,
+        "startPage": 54,
         "pages": [
             54,
             55
@@ -529,7 +529,7 @@ const RECIPES = [
         "category": "Luštěniny",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 55,
+        "startPage": 56,
         "pages": [
             56,
             57
@@ -556,7 +556,7 @@ const RECIPES = [
         "category": "Těstoviny a rizota",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 59,
+        "startPage": 60,
         "pages": [
             60,
             61
@@ -583,7 +583,7 @@ const RECIPES = [
         "category": "Těstoviny a rizota",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 61,
+        "startPage": 62,
         "pages": [
             62,
             63
@@ -612,7 +612,7 @@ const RECIPES = [
         "category": "Těstoviny a rizota",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 63,
+        "startPage": 64,
         "pages": [
             64,
             65
@@ -636,7 +636,7 @@ const RECIPES = [
         "category": "Těstoviny a rizota",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 65,
+        "startPage": 66,
         "pages": [
             66,
             67
@@ -665,7 +665,7 @@ const RECIPES = [
         "category": "Těstoviny a rizota",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 67,
+        "startPage": 68,
         "pages": [
             68,
             69
@@ -695,7 +695,7 @@ const RECIPES = [
         "category": "Bezmasé",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 71,
+        "startPage": 72,
         "pages": [
             72,
             73
@@ -718,7 +718,7 @@ const RECIPES = [
         "category": "Bezmasé",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 73,
+        "startPage": 74,
         "pages": [
             74,
             75
@@ -746,7 +746,7 @@ const RECIPES = [
         "category": "Bezmasé",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 75,
+        "startPage": 76,
         "pages": [
             76,
             77
@@ -783,7 +783,7 @@ const RECIPES = [
         "category": "Pečivo",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 79,
+        "startPage": 80,
         "pages": [
             80,
             81
@@ -806,7 +806,7 @@ const RECIPES = [
         "category": "Pečivo",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 81,
+        "startPage": 82,
         "pages": [
             82,
             83
@@ -833,7 +833,7 @@ const RECIPES = [
         "category": "Pečivo",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 83,
+        "startPage": 84,
         "pages": [
             84,
             85
@@ -862,7 +862,7 @@ const RECIPES = [
         "category": "Pečivo",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 85,
+        "startPage": 86,
         "pages": [
             86,
             87
@@ -886,7 +886,7 @@ const RECIPES = [
         "category": "Omáčky",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 89,
+        "startPage": 90,
         "pages": [
             90
         ],
@@ -916,7 +916,7 @@ const RECIPES = [
         "category": "Omáčky",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 90,
+        "startPage": 91,
         "pages": [
             91
         ],
@@ -946,7 +946,7 @@ const RECIPES = [
         "category": "Omáčky",
         "bookKey": "mamincina",
         "bookTitle": "Maminčina kuchařka",
-        "startPage": 91,
+        "startPage": 92,
         "pages": [
             92,
             93
